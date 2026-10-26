@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Django artifacts
+db.sqlite3
+
+# Application secrets / local env (user-owned; .env.example is the template)
+src/document_generator/.env
+
+# Operation logs
+src/document_generator/logs/
