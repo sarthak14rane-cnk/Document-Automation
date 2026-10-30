@@ -25,3 +25,5 @@ src/document_generator/media/
 
 # IDE workspace files
 .idea/
+
+tests/

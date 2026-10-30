@@ -1,7 +1,0 @@
-﻿SPIKE B EVIDENCE (2026-10-28 17:11, no OPENCODE_BIN env, default settings)
-settings.OPENCODE_BIN = 'opencode'   settings.OPENCODE_MODEL = 'opencode/mimo-v2.6-flash-free'
-AI_BRIDGE_BIN_RESOLVED shim=C:\Users\LT-IS-07\AppData\Local\Programs\nodejs\opencode.CMD exe=C:\Users\LT-IS-07\AppData\Local\Programs\nodejs\node_modules\@opencode\cli\bin\opencode.exe
-AI_BRIDGE_BIN path=...\nodejs\node_modules\@opencode\cli\bin\opencode.exe
-AI_BRIDGE_OK model=opencode/mimo-v2.6-flash-free schema=text   (29.7s, 10-line prompt, 835 chars)
-Checks: 8/8 PASS (resolution logged, shim->exe, OK, mimo model, non-empty, no debris, no mismatch) exit 0
-Content: GreenLeaf organic-food profile (industry-appropriate, 2 paragraphs previewed)

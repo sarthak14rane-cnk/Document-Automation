@@ -1,4 +1,0 @@
-{
-  "elapsed_s": 29.729116201400757,
-  "content": "Across GreenLeaf Organic Foods Pvt Ltd, GreenLeaf Farms and GreenLeaf Retail LLP, personal data spans the full organic agri-supply chain: farmer and producer registrations, supplier and vendor KYC, employee records, retail loyalty and e-commerce customer details, delivery addresses, payment references and call-centre interactions, alongside data-sharing with logistics partners, certification bodies and analytics platforms.\n\nAn assessment would map each dataset to lawful purpose and consent under the DPDP Act, checking notice, withdrawal mechanisms, children's data handling, cross-border transfer and grievance redressal. It would evaluate retention limits, purpose limitation, security safeguards, breach notification readiness and Data Principal rights, alongside processor contracts and impact assessments, producing a gap analysis and phased remediation roadmap for each entity."
-}
