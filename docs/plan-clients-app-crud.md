@@ -508,6 +508,12 @@ Two post-execution fixes applied during validation:
 
 Still outstanding: `manage.py test clients` (the 20-test unit suite) remains blocked on `doc_user` lacking `CREATEDB` — needs `ALTER ROLE doc_user CREATEDB;` run by a PostgreSQL superuser.
 
+**Defect-fix record (2026-10-26, testing session `tests/session-20261026-104703/`):**
+- Unit suite now RUNS (CREATEDB resolved; runs against scratch `test_cnk`). Current: 22 tests, 21 pass, 1 fail — the fail is `test_create_readonly_fields_ignored` asserting a hardcoded `client_id == 1` (Postgres sequences don't roll back between test methods; app behavior correct; assertion should be `!= 999`).
+- **D1 FIXED** (was: POST without `client_short_name` → 500 IntegrityError): `ClientSerializer` now declares `client_short_name = CharField(required=False, allow_blank=True, default="")` — serializer-only, no migration (`makemigrations --check` clean). Regression test added.
+- **D2 FIXED** (was: `null` for `client_industries`/`list_of_entities` → 400 instead of plan §3.4 `None → []` coercion): both serializers now set `allow_null: True` via `extra_kwargs`; the pre-existing `_validate_string_list` then coerces `None → []`. Regression tests added.
+- Live re-verification (exact original defect payloads + DB row checks on `cnk`): all PASS; PUT key-presence (400) and non-string-member (400) guards unaffected. Details + scripts in `tests/session-20261026-104703/RESULTS.md`.
+
 ## 7. Sources
 
 Repository evidence:

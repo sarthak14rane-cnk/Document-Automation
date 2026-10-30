@@ -1,0 +1,525 @@
+
+
+495300209550Confidential
+
+REF: CNK/PROP/B/51/26-27
+1st October ,2026
+
+The,
+
+Bharat Manufacturing Industries Limited
+Plot 17, MIDC Chakan
+Pune 410501
+
+Kind Attn: R. Mehta
+
+Mr.
+
+Sub:Proposal for conducting Digital Personal Data Protection Impact Analysis  Compliance for Bharat Manufacturing Industries Limited.
+
+
+We are pleased to present herewith our proposal for conducting the DPDP Review and its Compliance for Bharat Manufacturing Industries Limited.
+This proposal will remain effective for a period of 15 days from the date of issue. Any intended changes to the proposal should be communicated within the said period. The proposed assignment timelines and/or the fee structure may change accordingly. On confirmation of the engagement, we would mobilise our team for the assignment at mutual convenience.
+We would be glad to provide further information/assistance that you may require in this connection. Should you have any questions relating to this, please do not hesitate to contact, the undersigned A. Partner partner@cnk.example , +91 90000 00000.
+We would like to place on record our appreciation for the trust and confidence placed in us and look forward to a mutually rewarding long-term association.
+With best regards,
+
+A. Partner
+Partner
+ TOC \o "1-3" \h \z \u 1.INTRODUCTION PAGEREF _Toc241762410 \h 4
+Entity Coverage PAGEREF _Toc241762411 \h 4
+What is Personal Data for MISSION FOR VISION PAGEREF _Toc241762412 \h 5
+1. Beneficiary  Patient Data PAGEREF _Toc241762413 \h 5
+2. Community Eye Health  Program Activities PAGEREF _Toc241762414 \h 5
+3. Hospital, Healthcare Partner  Program Ecosystem PAGEREF _Toc241762415 \h 5
+4. Donor, CSR  Funding Partner Management PAGEREF _Toc241762416 \h 5
+5. Employee, Consultant  Volunteer Data PAGEREF _Toc241762417 \h 6
+6. Digital Platforms  Communication Channels PAGEREF _Toc241762418 \h 6
+7. Research, Monitoring  Impact Assessment PAGEREF _Toc241762419 \h 6
+8. Compliance, Finance  Administration PAGEREF _Toc241762420 \h 6
+9. Children’s Data PAGEREF _Toc241762421 \h 7
+Data Processing Characteristics under DPDPA PAGEREF _Toc241762422 \h 7
+DPDPA Applicability and Key Obligations PAGEREF _Toc241762423 \h 8
+DPDPA Impact Assessment will enable the MISSION FOR VISION to: PAGEREF _Toc241762424 \h 10
+2.OBJECTIVE PAGEREF _Toc241762425 \h 12
+3.Scope Of Work PAGEREF _Toc241762426 \h 13
+Phase 1 DPDP Impact Assessment (Current State Review) PAGEREF _Toc241762427 \h 13
+Phase 2a   Governance, Policy  Compliance Framework Design PAGEREF _Toc241762428 \h 16
+Phase 2b   Privacy Controls, Technology  Operational Design PAGEREF _Toc241762429 \h 17
+ADDITIONAL OFFERINGS — SEPARATE ANNEXURES PAGEREF _Toc241762430 \h 18
+Phase 3:  Implementation  Rollout: PAGEREF _Toc241762431 \h 19
+Phase 4:   Sustain / Operate (Ongoing Compliance Support): PAGEREF _Toc241762432 \h 21
+Conclusion for DPDPA Impact Assessment PAGEREF _Toc241762433 \h 21
+BROAD METHODOLOGY  KEY STEPS PAGEREF _Toc241762434 \h 23
+4.Timelines: PAGEREF _Toc241762435 \h 24
+5.PROJECT GOVERNANCE PAGEREF _Toc241762436 \h 25
+6.Expected Outcome PAGEREF _Toc241762437 \h 26
+7.ASSUMPTIONS, LIMITATIONS  SCOPE EXCLUSIONS PAGEREF _Toc241762438 \h 28
+Assumptions PAGEREF _Toc241762439 \h 28
+Limitations PAGEREF _Toc241762440 \h 28
+Scope Exclusions PAGEREF _Toc241762441 \h 29
+8.ENGAGEMENT TEAM  TIMING PAGEREF _Toc241762442 \h 30
+Execution Team PAGEREF _Toc241762443 \h 30
+Resource Mobilization PAGEREF _Toc241762444 \h 30
+9.REMUNERATION PAGEREF _Toc241762445 \h 31
+10.RETENTION OF WORKING PAPERS PAGEREF _Toc241762446 \h 31
+11.CONCLUSION PAGEREF _Toc241762447 \h 32
+Annexure 1-Definitions PAGEREF _Toc241762448 \h 33
+Annexure 2- Key penalties under the DPDP Act (as of the 2025 Rules) PAGEREF _Toc241762449 \h 33
+TERMS  CONDITIONS PAGEREF _Toc241762450 \h 34
+STANDARD TERMS  CONDITIONS PAGEREF _Toc241762451 \h 35
+
+
+Bharat Manufacturing Industries Limited
+PROPOSAL FOR CONDUCTING DPDP IA  COMPLIANCE FOR THE Bharat Manufacturing Industries Limited
+REF: CNK/PROP/B/51/26-27
+INTRODUCTION
+
+We, Messrs. CNK  Associates LLP, Chartered Accountants, (“CNK”) are pleased to present for DPDP Impact Assessment  Compliance review for Bharat Manufacturing Industries Limited.
+The proposal summarizes the benefit of Digital Personal Data Protection Impact Assessment and Compliance for an organization like yours , with our standard Terms of Reference. 
+Entity Coverage
+This engagement will cover the following 2 entities:
+Bharat Steel Limited
+Bharat Logistics LLP
+Bharat Manufacturing Industries Limited and its subsidiaries Bharat Steel Limited and Bharat Logistics LLP hold personal data across the employee lifecycle, including workers engaged in steel plants and industrial equipment operations, contractor and vendor contacts, dealer and customer personnel, and transport and fleet-related identifiers managed by the logistics arm. Data is typically generated through HR and payroll systems, shift and safety records, CCTV and plant access controls, e-commerce and dealer portals, logistics consignment booking, grievance helplines, and marketing or stakeholder outreach, alongside routine IT and CCTV telemetry.An impact assessment would map each dataset to lawful grounds under the DPDP Act, 2023, with employee data largely processed under contractual necessity rather than consent, and consents elsewhere meeting the Act's notice, granularity and withdrawal standards. The assessment would evaluate purpose limitation, retention schedules, data minimisation, breach notification readiness, Notice Manager and Data Principal request mechanisms, Significant Data Fiduciary obligations, processor agreements, cross-border transfer implications, and grievance redressal timelines across all three entities.
+What is Personal Data for Bharat Manufacturing Industries Limited
+Based on our understanding of Bharat Manufacturing Industries Limited's activities and programs, we believe that the organization processes personal data across multiple operational, programme, healthcare, donor and support functions. The nature of personal data may include the following:
+Employee  Workforce Data
+Steel plants and equipment units employ large factory and office workforces, generating HR, payroll, attendance and statutory contribution records.
+Name, employee ID, address, family and nominee details
+Salary, bank account, PF, ESI and TDS records
+Biometric or card-based attendance and shift data
+Recruitment, appraisal, disciplinary and exit records
+Contractor and migrant-worker deployment records
+Statutory registers under Labour and wages laws
+Occupational Health  Safety Data
+Hazardous steel-making operations require occupational health surveillance, injury tracking and safety compliance records for workers and contractors.
+Medical fitness and periodic health examination records
+Accident, injury and occupational disease reports
+Gas exposure, noise and heat-stress monitoring records
+Emergency drill and evacuation participant data
+Safety training and certification records
+Customer  Dealer Data
+Industrial equipment and steel sales involve B2B customers, dealers and channel partners whose contacts and transaction records are processed.
+Contact persons, designations and business communication details
+Quotations, purchase orders and contract documentation
+Gstin, invoicing and payment history linked to individuals
+Dealer and distributor onboarding and KYC records
+Warranty, complaint and service-call histories
+Supplier  Vendor Data
+Procurement of raw materials, consumables and services processes data of supplier proprietors, contacts and deployed site personnel.
+Proprietor, partner and authorised signatory details
+Vendor onboarding, PAN, GST and banking details
+Purchase orders, quotations and correspondence
+Vendor personnel deployed at plants for services
+Audit, quality and performance assessment records
+Transport  Logistics Data
+Bharat Logistics LLP moves steel and equipment by road, processing driver, fleet and consignment-contact personal data.
+Driver licences, identity proof and contact numbers
+Trip, GPS, e-way bill and consignment records
+Transporter and fleet-owner operator details
+Delivery proof, signature and POD photographs
+Incident, claims and insurance documentation
+Visitor  Premises Security Data
+Restricted industrial plants log visitor identities and CCTV footage for security and safety across group entities.
+Visitor name, photo ID, vehicle number and host details
+Gate entry-exit logs and digital visitor registers
+CCTV and video surveillance footage at plant perimeters
+Contractor and temporary pass-holder data
+Incident logs involving visitors
+Website  Digital Channel Data
+The corporate website and enquiry portals capture personal data from prospective buyers, Careers applicants and other website users.
+Contact forms, enquiry and callback requests
+Job application and careers portal submissions
+Newsletter, feedback and survey responses
+IP address, cookies and website analytics data
+Email and phone correspondence with enquiries
+Statutory  Regulatory Data
+Steel manufacturing and logistics attract environmental, tax, factory and law-enforcement disclosures of identifiable individuals.
+Factory and inspectorate returns naming responsible persons
+GST, customs and tax filings with signatory details
+Environmental consent and pollution-board declarations
+Government inspections, licenses and permits
+Data shared with law enforcement under legal obligation
+Director  Key Managerial Personnel Data
+Group entities Bharat Steel Limited and Bharat Logistics LLP process DIN, KYC and ownership data of directors and partners.
+Director Identification Numbers and KYC documents
+Signatory and authorisation records for bank accounts
+LLP partner identity and profit-share details
+Board meeting attendance and resolution records
+Shareholding and beneficial ownership declarations
+Data Processing Characteristics under DPDPA
+Bharat's data processing ecosystem may involve:
+Personal data, including employee identity, payroll and contact details, is collected directly from individuals and through HR, payroll and attendance systems operated by Bharat Manufacturing Industries Limited and its subsidiary entities.
+Worker data comprising biodata, statutory identity records and next-of-kin details is collected from contractors and shop-floor employees of Bharat Steel Limited for employment administration and statutory compliance under applicable labour and factory laws.
+Customer and contact person data is collected directly, from purchase orders and from publicly available business registers by Bharat Logistics LLP to enable freight booking, consignment tracking, invoicing and regulatory documentation.
+Personal data is processed to operate and manage contracts, deliver industrial equipment and logistics services, administer vendor and customer relationships, discharge statutory obligations and pursue legitimate business interests of the group.
+KYC documents, GST records, bank details and authorised signatory information are collected from business counterparties for customer due diligence, invoicing, payments, audit trails and anti-money-laundering compliance.
+Personal data is shared with group entities, banks, insurers, statutory authorities, transporters, third-party service providers and professional advisers on a need-to-know basis under written contracts and lawful disclosures.
+Sensitive personal data is stored on group servers, cloud platforms and physical records at manufacturing plants, depots and offices, with access restricted by role-based controls aligned with DPDP security safeguard obligations.
+Retention periods are governed by statutory, contractual and audit requirements, including tax, factory, environmental and logistics records; data is securely erased or anonymised once the stated purpose and legal retention periods are met.
+Employee data supports payroll, benefits, training, occupational health and safety monitoring, disciplinary administration and workforce planning across steel manufacturing and industrial equipment operations of the group entities.
+Cross-location processing and transfers occur among group entities, plants, depots and service providers, involving disclosures to data fiduciaries and processors, including potential cross-border transfers, subject to DPDP consent and notice requirements.
+DPDPA Applicability and Key Obligations
+Based on the nature of its operations and processing of personal data relating to Bharat's beneficiaries, patients, employees, donors, volunteers, partners and other stakeholders, Bharat Manufacturing Industries Limited would need to assess and implement the applicable obligations under the Digital Personal Data Protection Act, 2023 (DPDP Act). The applicability and extent of specific obligations would depend on Bharat's processing activities, role as Data Fiduciary or Data Processor, and other factors prescribed under the applicable legal framework.
+1. Lawful Processing  Consent Management
+Establish appropriate lawful grounds for processing personal data, including consent where required.
+Provide clear and accessible privacy notices to data principals, as applicable.
+Obtain consent in a manner that is specific, informed and capable of being withdrawn where consent is the applicable basis.
+Maintain appropriate records and evidence of consent and related processing activities.
+Establish mechanisms to facilitate withdrawal of consent where applicable.
+2. Purpose Limitation  Data Minimization
+Collect and process personal data only for specified and legitimate purposes related to service delivery, programme implementation, monitoring, reporting and organisational administration.
+Limit collection to personal data that is necessary for the intended purpose.
+Review existing forms, databases and data collection channels to identify unnecessary or excessive data collection.
+Ensure that subsequent use or sharing of personal data remains aligned with the applicable purpose and legal requirements.
+3. Data Principal Rights Management
+Enable data principals to exercise their rights:
+Right to access information about personal data being processed.
+Right to correction and updating of personal data.
+Right to erasure of personal data, subject to applicable legal and retention requirements.
+Right to grievance redressal.
+Right to nominate an individual to exercise rights in accordance with applicable provisions.
+Appropriate channels, ownership and turnaround mechanisms should be established for receiving, authenticating, tracking and responding to such requests.
+4. Data Security Safeguards
+Implement appropriate technical and organisational measures to protect personal data.
+Apply appropriate access controls and role-based access based on business need.
+Protect personal data during storage and transmission.
+Implement appropriate authentication, encryption, endpoint and network security controls, as applicable.
+Maintain audit trails, security logs and monitoring mechanisms for relevant systems.
+Periodically review access privileges and security controls, particularly for systems containing sensitive or health-related information.
+5. Personal Data Breach Management
+Establish a formal personal data breach identification, escalation and response framework.
+Define roles and responsibilities for identifying, assessing, containing and remediating personal data breaches.
+Establish mechanisms for notification to the Data Protection Board and affected data principals, where required under applicable law.
+Conduct root-cause analysis and corrective actions following significant incidents.
+Maintain appropriate records of incidents, response actions and remediation.
+6. Data Retention  Record Management
+Define appropriate retention periods for personal data based on applicable legal, contractual, operational and organisational requirements.
+Establish a formal data retention and disposal policy.
+Periodically review stored personal data to identify information that has exceeded its applicable retention period.
+Implement secure deletion, disposal or anonymisation, as appropriate, once retention requirements have been fulfilled.
+Ensure that archived data remains subject to appropriate security and access controls.
+7. Vendor  Third-Party Risk Management
+Identify third parties and service providers that process personal data on behalf of the organisation, including partners, technology providers, cloud service providers, consultants and other outsourced providers, as applicable.
+Define appropriate contractual requirements relating to data protection, confidentiality, security and breach management.
+Conduct appropriate privacy and information-security due diligence of relevant third parties.
+Establish mechanisms to monitor third-party compliance with applicable data protection requirements.
+Ensure appropriate controls over data sharing and onward processing by third parties.
+8. Additional Obligations (if classified as SDF)
+Depending on the applicability of specific provisions and any future classification or notification applicable to the organisation, additional governance measures may be required. These may include:
+Strengthening the organisation's privacy governance framework and accountability structure.
+Periodic assessment of personal data processing activities and associated privacy risks.
+Implementation of privacy-by-design principles for new programmes, systems and technology initiatives.
+Periodic review of privacy policies, notices, consent mechanisms and data processing practices.
+Maintaining appropriate records, documentation and evidence of compliance.
+Conducting periodic privacy and data protection reviews/audits, where applicable.
+Enhancing employee and stakeholder privacy awareness and training.
+
+DPDPA Impact Assessment will enable the Bharat Manufacturing Industries Limited to:
+Identify and address DPDPA compliance gaps
+Strengthen personal data privacy and security
+Enhance stakeholder trust and accountability
+Improve regulatory readiness
+Strengthen beneficiary and patient data protection
+Enhance third-party and data-sharing governance
+Embed privacy-by-design practices across operations
+
+OBJECTIVE 
+
+Bharat Manufacturing Industries Limited proposes to undertake a Digital Personal Data Protection Impact Assessment and compliance assessment, covering its key business processes, IT infrastructure, applications, programmes and third-party ecosystem involved in the collection, processing, storage, sharing, archival and deletion of personal data.
+The objective of this exercise is to assess Bharat's existing data protection practices, identify compliance gaps and associated privacy risks, and recommend appropriate remediation measures to align its data governance, contractual arrangements, IT controls and personal data lifecycle management with the applicable requirements of the Digital Personal Data Protection Act, 2023 (DPDP Act).
+To support Bharat Manufacturing Industries Limited in its privacy and compliance journey, CNK will assess the existing data governance framework with focus on:
+Distributed data collection across beneficiaries, patients, employees, donors, partners and programme activities.
+Consent and privacy notice practices across offline and digital data collection channels.
+Multi-stakeholder data sharing, including healthcare institutions, programme partners, donors and external service providers.
+Personal and health-related data retention and archival practices.
+Third-party and Data Processor management and contractual data protection requirements.
+Organisation-wide DPDPA compliance across relevant functions and programmes.
+Privacy-by-design considerations for business processes, programmes and technology initiatives.
+Risk assessment to evaluate the likelihood and potential impact of identified personal data privacy and breach risks.
+Development of appropriate mitigation measures and remediation actions to address identified personal data risks and compliance gaps.
+
+Scope Of Work
+
+This initiative will follow a phased implementation approach for Bharat Manufacturing Industries Limited, covering Data Discovery and Mapping, Risk Assessment, Policy  Process Development, Technology Enablement, Capacity Building and Compliance Monitoring.
+Based on our discussions and experience in the area of data protection and privacy, the scope will focus on assessing Bharat's personal data processing activities across its beneficiary and patient programs, employees, donors, partners, healthcare institutions, vendors and supporting business functions.
+The scope of work is indicative and may be further refined based on the findings emerging during the assessment. Any additional area identified during the engagement that is relevant to Bharat's DPDPA compliance and data protection objectives may also be considered as part of the engagement.
+The entire engagement will be divided into four phases, covering the assessment of the current state, identification and prioritization of gaps and risks, development of the required privacy framework and controls, and support towards implementation and ongoing monitoring.
+Phase 1 DPDP Impact Assessment (Current State Review)
+The objective of Phase 1 is to establish a clear understanding of Bharat's personal data landscape, processing activities, technology environment and existing privacy controls, and to identify key gaps and risks against the applicable requirements of the DPDP Act.
+The assessment will include:
+Review and inventory of existing personal data collection points, sources and methods, including beneficiary/patient interactions, outreach programs, events, websites, forms, email and other relevant channels.
+Assessment of personal data shared with partner hospitals, healthcare institutions, program partners, donors, vendors, consultants and other external parties, as applicable.
+Review of personal data processed in connection with healthcare, program delivery, monitoring, reporting, financial, employment and other applicable legal or contractual requirements.
+Review of personal data processed through websites, digital platforms, online forms, communication channels and other technology systems.
+Review of methods, policies and controls relating to storage, accessibility, internal sharing, processing and use of personal data.
+Review of existing personal data retention, archival and deletion practices.
+Review of communications and information shared with external stakeholders and third parties by relevant departments and personnel.
+Assessment of the extent, nature and purpose of personal data disclosed or transferred outside the organisation.
+Assess the applicability of the DPDP Act and identify key compliance risks across relevant business, program and IT operations.
+Conduct personal data discovery and data-flow mapping across relevant functions and technology platforms to understand how personal data is collected, processed, stored, transferred and deleted.
+Identify high-risk processing activities, including processing of health-related, identification and other potentially sensitive personal information.
+Map Data Principal touchpoints across beneficiary/patient interactions, outreach programs, websites, forms, communication channels, employee interactions and other relevant points of data collection.
+Conduct discussions/interviews with relevant personnel to understand what personal data is collected, the purpose of collection, where it is stored, who has access to it, with whom it is shared and how long it is retained.
+Perform a detailed gap assessment against applicable DPDP Act and Rules requirements and identify areas requiring remediation or improvement.
+Assess the applicability of DPDP requirements across the organisation's various functions, programs and operational units, including relevant legal and regulatory considerations.
+Provide inputs on Data Fiduciary/Data Processor roles, territorial applicability, processing purposes and sector-specific considerations, wherever applicable.
+Review the system and application landscape, including interfaces with third-party platforms, healthcare partners and other external systems.
+Assess the current IT and data environment, including infrastructure, applications, interfaces, access controls and overall data landscape.
+Review relevant contracts and agreements with employees, vendors, healthcare institutions, program partners, consultants, technology providers and other service providers.
+Review existing cybersecurity and data protection controls against applicable regulatory requirements and recognized industry practices.
+Review business continuity and disaster recovery arrangements relating to the availability, backup and archival of personal data.
+Evaluate existing IT governance, privacy governance, controls, ownership and reporting mechanisms.
+Key Deliverables
+Personal Data Inventory across relevant functions and programmes.
+Personal Data Flow Diagrams (DFDs) for identified business/programme units.
+DPDPA Gap Assessment Report covering applicable personal data processing activities, systems, controls and third-party ecosystem.
+Key Risk  Compliance Findings with recommended remediation actions.
+
+Phase 2a   Governance, Policy  Compliance Framework Design
+
+The objective of Phase 2A is to establish a practical and sustainable data protection governance framework for Bharat Manufacturing Industries Limited, aligned with applicable DPDP requirements and the organisation's operational, healthcare, programme and stakeholder ecosystem.
+
+The scope will include:
+
+Define the DPDP governance framework and target operating model, including roles, responsibilities, accountability and escalation mechanisms.
+Define appropriate privacy/data protection ownership, including roles, responsibilities, reporting structure and operating procedures for the designated privacy function.
+Identify and develop DPDP-aligned policies, privacy notices, standards and SOPs applicable to the organisation.
+Develop guidelines and processes covering personal data collection, consent/notice, retention, storage, access, sharing, processing and secure deletion.
+Establish a vendor and third-party privacy assessment framework, including appropriate Data Processing Agreement (DPA) requirements.
+Recommend DPDP-aligned contractual safeguards and model data protection clauses for relevant employees, vendors, partners, healthcare institutions and service providers.
+Define record-keeping and documentation requirements to support ongoing DPDP compliance and accountability.
+Prepare function/programme-level privacy guidelines, including practical Do's and Don'ts for personnel handling personal data.
+Provide guidance on:
+Personal data obtained from third-party sources and program partners.
+Personal data obtained from public sources or the open internet, where applicable.
+Sharing of employee and stakeholder personal data for legitimate business or program activities.
+
+Phase 2b   Privacy Controls, Technology  Operational Design
+The objective of Phase 2B is to translate the governance and policy framework into practical privacy, security and operational controls that can be implemented across the organisation's programmes, functions, technology environment and third-party ecosystem.
+
+The scope will include:
+Design a consent and privacy notice framework, including consent lifecycle, withdrawal mechanisms, record retention and deletion processes, wherever consent is the applicable basis for processing.
+Evaluate appropriate consent models for different functions and stakeholder categories, including beneficiaries/patients, employees, donors, volunteers and other relevant Data Principals.
+Assess requirements for consent management tools or technology enablement, where applicable.
+Design privacy and security controls aligned with applicable DPDP requirements and the organisation's operating environment.
+Assess technology dependencies, system vulnerabilities and existing control gaps, and recommend required privacy and security enhancements.
+Develop a structured DPDP implementation plan and compliance roadmap, including prioritised remediation activities.
+Conduct a high-level review of technology architecture, applications, data repositories and system interfaces from a data protection and privacy perspective.
+Design a personal data breach management framework, covering identification, escalation, incident response, notification and reporting requirements.
+Develop a privacy risk mitigation and control enhancement roadmap based on the risks identified during the assessment.
+Define appropriate controls for managing consent, notices and personal data processing across different stakeholder categories.
+Provide guidance on privacy requirements for the exchange of reports, programme information, beneficiary information and other personal data through email, WhatsApp and other digital communication platforms.
+Support the integration of privacy, cybersecurity and operational controls into the organisation's overall DPDP implementation plan.
+Recommend appropriate mechanisms for privacy monitoring, control testing and periodic compliance review.
+Key Deliverables:
+Privacy Action Report
+Privacy Policy
+Privacy Procedures
+Clauses to be added to Contracts
+Consent Management Application if any
+ADDITIONAL OFFERINGS — SEPARATE ANNEXURES
+(Beyond the Core Assessment)
+The following capability is offered as an optional, separately priced workstream that may be initiated upon successful completion of Phase I and Phase II, subject to Bharat Manufacturing Industries Limited's business priorities and implementation readiness.
+Data Protection Officer as a Service
+Offered as a separate workstream of the engagement, once the gap assessment (Phase I) and remediation/implementation (Phase II) are complete. The engagement is structured as a managed services model, reflecting the ongoing and operational nature of privacy governance and regulatory oversight.
+Under this model, we provide continuous DPO support through a combination of offsite advisory supplemented by on-premises engagement where deeper operational involvement is required, structured as an ongoing managed-services model.
+Consent Management Enablement (Platform-Agnostic)
+Bharat may be supported in implementing a technology-agnostic consent management solution, based on the consent, notice and rights-management workflows identified during the assessment.
+Platform selection, configuration and implementation would be separately scoped and commercially evaluated based on Bharat's confirmed requirements.
+Lightweight RoPA Implementation
+A lightweight Records of Processing Activities (RoPA) framework can be implemented as a separate workstream to provide Bharat with a practical and maintainable register of:
+Personal data processing activities
+Data categories and Data Principals
+Processing purposes
+Systems and storage locations
+Data sharing and third parties
+Retention requirements
+Applicable privacy and security controls.
+Phase 3:  Implementation  Rollout:
+The objective of Phase 3 is to support the organisation in implementing and operationalising the privacy governance framework, policies and controls identified during the assessment and design phases. The implementation will focus on embedding DPDP-aligned practices across relevant functions, programmes, technology systems and third-party relationships.
+The scope will include:
+Implementation of the approved DPDP privacy framework across relevant functions, including HR, Operations, Finance, IT, Administration, Programme Teams and other applicable functions.
+Implementation of the personal data retention, archival and secure deletion framework.
+Establishment of Data Principal request workflows, including access, correction, erasure and grievance-related processes, as applicable.
+Evaluation and implementation support for appropriate Data Principal request management tools, where required.
+Enablement of personal data breach reporting and incident management processes.
+Conduct DPDP awareness and privacy training for management, business teams, programme teams, frontline personnel and other relevant stakeholders.
+Build awareness around personal data ownership, retention, secure handling, sharing and deletion responsibilities.
+Develop and implement consent and privacy notice procedures across applicable functions and data collection channels.
+Identify opportunities for data minimisation and support implementation of appropriate data collection and processing practices.
+Provide support for the appointment or engagement of a Data Protection Officer/privacy function, where required based on applicability and organisational needs.
+Establish and operationalise a Data Principal grievance redressal and escalation mechanism.
+Implement identified IT, cybersecurity and privacy control enhancements.
+Update vendor governance frameworks, contractual safeguards and Data Processing Agreements (DPAs), as applicable.
+Strengthen business continuity, backup, archival and disaster recovery practices relating to personal data.
+Develop or update the Privacy Policy, privacy notices and related communication materials, where required.
+Support implementation of privacy-by-design practices for relevant new systems, programmes and processing activities.
+Key Deliverables:
+DPDP Framework Implementation  Rollout
+Consent and Consent Withdrawal Mechanisms, where applicable
+Data Principal Rights  Grievance Redressal Framework
+Data Retention, Archival  Secure Deletion Implementation
+Personal Data Breach Reporting  Incident Response Process
+Privacy Policy, Notices  Communication Framework
+Security, Encryption, Access Control, Anonymisation and Monitoring Enhancements
+Employee Privacy Awareness, Training  Change Management Programme
+Vendor Governance  DPA Implementation
+Backup, Business Continuity  Data Archival Controls
+Implementation Roadmap with Closure Tracking for Identified Gaps
+Vulnerability Assessment and Penetration Testing (VAPT) of identified systems, where applicable and separately scoped.
+
+
+
+Conclusion for DPDPA Impact Assessment
+Bharat Manufacturing Industries Limited operates across the eye-care, community outreach and social-impact ecosystem, involving the collection and processing of personal data relating to beneficiaries, patients, employees, donors, volunteers, healthcare partners, programme partners and other stakeholders.
+Given the nature of these activities, effective protection of personal data is important from privacy, regulatory, operational, stakeholder trust and reputational perspectives.
+As an organisation processing personal data, Bharat should establish an appropriate privacy and data protection governance framework aligned with the Digital Personal Data Protection Act, 2023 and applicable Rules, proportionate to its processing activities and organisational requirements.
+The proposed DPDPA Impact Assessment will help Bharat Manufacturing Industries Limited to understand its personal data landscape, identify compliance gaps and privacy risks, strengthen governance and security controls, and establish a sustainable approach to responsible personal data management across its programmes, operations, technology environment and third-party ecosystem.
+
+BROAD METHODOLOGY  KEY STEPS
+
+
+
+Timelines: 
+
+The Phase 1 to 3 will be executed over a period of 10 weeks. Covering planning, assessment, remediation support, and ongoing compliance assurance activities.
+Phase 4 comprises of On-Going Compliance Support which is a quarterly activity.  The time to be spent for each quarter will be decided on a mutually agreed scope at that juncture.
+For Bharat Manufacturing Industries Limited, these obligations apply across key operational touchpoints, communities and internal HR, payroll, and vendor management systems.
+
+PROJECT GOVERNANCE
+ORGANIZATION CHART
+
+REPORTING
+
+Traffic Lighting
+RED
+AMBER
+GREEN
+Delayed
+Needs Attention
+As per Plan
+
+Expected Outcome
+DPDP Compliance Readiness: Clear identification of privacy and compliance gaps across Bharat Manufacturing Industries Limited's programs, operations and support functions, supported by a prioritized remediation roadmap aligned with applicable DPDP requirements.
+End-to-End Data Mapping: Comprehensive mapping of personal data relating to beneficiaries/patients, employees, donors, volunteers and partners across collection points, systems, storage locations and third-party interactions.
+Strengthened Consent Management: Standardized and transparent consent and privacy notice practices across applicable data collection channels, including appropriate mechanisms for consent withdrawal where consent is relied upon.
+Enhanced Data Principal Rights Handling: Defined processes to manage applicable access, correction, erasure and grievance redressal requests from beneficiaries and other Data Principals.
+Improved Third-Party Governance: Strengthened due diligence, contractual safeguards and oversight of healthcare institutions, program partners, vendors, technology providers and other third parties processing personal data.
+Data Protection Governance Framework: Establishment of appropriate policies, procedures, roles, responsibilities and accountability mechanisms to support ongoing privacy governance and compliance.
+Risk Identification  Mitigation: Identification of privacy risks specific to Bharat's activities, including community/field-level data collection, healthcare-related information and beneficiary data sharing, with actionable mitigation measures.
+Security  Control Enhancements: Recommendations to strengthen technical and organizational controls covering access management, data retention, secure storage, data sharing, encryption and incident management, as applicable.
+Audit Readiness  Documentation: Development of appropriate records, evidence, audit trails and compliance documentation to demonstrate implementation of privacy controls and support future assessments or regulatory requirements.
+Awareness  Training Enablement: Enhanced awareness among employees, program teams, frontline personnel and relevant partners regarding responsible handling of personal data and applicable privacy obligations.
+Phased Implementation Roadmap: A practical and prioritized roadmap with defined actions, timelines, ownership and implementation priorities to support the organisation in achieving and sustaining DPDP compliance.
+DPDP compliance enhances Enterprise Trust, Strengthens Institutional Governance, enables Responsible Partnerships with Government and Corporates, and ensures Ethical handling of vulnerable beneficiary data.
+
+ASSUMPTIONS, LIMITATIONS  SCOPE EXCLUSIONS
+Assumptions
+The assessment and documentation will be undertaken from an Indian data protection and privacy law perspective, with the scope primarily focused on the applicable requirements of the Digital Personal Data Protection Act, 2023 and associated Rules.
+Bharat Manufacturing Industries Limited will provide timely access to relevant systems, applications, data-flow information, process documents, contracts, policies, procedures and other documentation required for the assessment.
+Bharat Manufacturing Industries Limited will nominate a single point of contact (SPOC) to coordinate with internal teams, program teams, healthcare/implementation partners, vendors and other relevant third parties to facilitate timely availability of information.
+Any necessary system access, infrastructure, tools or software required for carrying out the assessment will be provided or facilitated by Bharat Manufacturing Industries Limited.
+Information and representations provided by Bharat personnel and relevant stakeholders will be considered accurate and complete for the purpose of the assessment.
+Bharat Manufacturing Industries Limited will facilitate the participation of relevant business, program, IT, HR, administration, finance and other stakeholders required for interviews and validation.
+The assessment will be based on the information and documentation made available during the engagement period.
+Limitations
+The core engagement will comprise three phases, covering assessment, framework design and implementation/rollout. Any ongoing Phase 4 – Sustain/Operate activities will be separately discussed and agreed based on Bharat's requirements.
+The assessment will be performed on a reasonable-efforts basis and will not constitute legal certification or a guarantee of regulatory compliance.
+The scope will focus on personal data and processing activities relevant to Bharat's identified operations, programs, systems and stakeholder ecosystem.
+Any requirements relating to jurisdictions outside India or foreign data protection laws will be outside the core scope unless specifically agreed otherwise.
+Detailed legal opinions on specific contractual, regulatory or sector-specific matters will be considered separately, where required.
+
+Scope Exclusions
+Implementation or modification of IT systems, applications or infrastructure will not form part of the core assessment. Recommendations for required modifications or enhancements may be provided; actual implementation will remain the responsibility of Bharat or its designated technology/service providers.
+Development or deployment of technology solutions, including consent management platforms, DSAR tools or privacy management systems, will be separately scoped where required.
+Existing policies and procedures will not be comprehensively rewritten as part of the assessment. Where required, DPDP-specific addendums, amendments or recommended updates will be provided.
+Detailed penetration testing, vulnerability assessment, source-code review or technical security testing will not form part of the core scope unless separately agreed.
+Activities relating to ongoing Phase 4 compliance monitoring, periodic audits, managed DPO services or continuous operational support will be treated as optional additional services.
+
+ENGAGEMENT TEAM  TIMING
+
+Execution Team
+Our execution team would comprise of a mix of Chartered Accountants, Engineers, graduates, MBA / IT specialists from our Information Technology team along with lawyers who have a deep domain knowledge of the DPDP Act and Privacy Laws
+The method of execution of this engagement will be Hybrid, all that can be done virtually will be done virtually, what requires IN PERSON presence will be executed in person.
+
+ Resource Mobilization
+
+We will mobilize our engagement team to commence work on a mutually convenient date. Our ability to meet with this timetable will depend upon the availability of the management and support personnel and their ability to provide the required information and support expeditiously. 
+
+REMUNERATION
+
+We estimate our professional fees based on the level of skills required, the location and the timing of the assignment, a fair estimate of professional time required, and the risk and responsibilities involved.  Based on these parameters, the fees proposed for proposed engagement are given below. 
+ At CNK and Associates LLP we are committed to providing value and delivering results by understanding and meeting the specific requirements of our clients and working closely as a team with your personnel. 
+The assignment will cover an estimated duration of 10 weeks. The estimated fees for the assignment will be Rs. 15,00,000.
+We would require 30% on Engagement Initiation, 40% on Draft Report Presentation, 30% on Final Report Submission, All invoices are payable at the presentation.
+Details
+Amount
+Engagement Initiation
+Rs.   450000
+Draft Report Presentation
+Rs.   600000
+Final Report Submission
+Rs.   450000
+
+The fees would be exclusive of GST and exclusive of out-of-pocket expenses incurred directly for the conduct of the assignment such as travel costs including lodging  boarding, communication costs, local conveyance, report reproduction costs, etc.
+The agreed fee will cover the agreed scope of assignment and accordingly, should the work undergo any significant modification or if any additional areas, or should the engagement get unreasonably delayed due to unavailability of information and personnel from Bharat Manufacturing Industries Limited's end we will discuss the matter with you and then fix up the additional fees as through the mode of a Change Request.
+RETENTION OF WORKING PAPERS
+We understand that our working papers and reports should be stored securely. We will be retaining our detailed working papers and records of the assignment for a period of 1 year(s) from the submission of the final report. Our report copies, however, will be retained for a period of 2 years from the submission of the final report.
+CONCLUSION
+Given the nature of Bharat Manufacturing Industries Limited's activities and the personal data processed across its beneficiary and patient programmes, community outreach initiatives, employees, donors, volunteers, healthcare partners, vendors and other stakeholders, it is important to assess the organisation's regulatory exposure, existing data protection practices, and the IT and cybersecurity controls supporting the collection, processing, storage, sharing and retention of personal data under the DPDP Act and applicable Rules.
+The proposed assessment is intended to provide Bharat's management with a clear view of its current data protection readiness, key privacy and compliance risks, identified gaps, and practical measures required to strengthen and sustain compliance.
+We wish to state that we undertake all our professional assignments with utmost sincerity and commitment. Our teams are trained to deliver high standards of professional services through ongoing professional development, formal training, internal knowledge-sharing sessions and strong on-the-job guidance.
+Our engagement methodology and processes are periodically reviewed to incorporate emerging privacy, technology and regulatory practices, while ensuring that the recommended framework is practical and aligned with Bharat Manufacturing Industries Limited's organisational objectives, operating environment and social-impact ecosystem.
+We are confident that the proposed engagement will help Bharat Manufacturing Industries Limited strengthen data protection governance, enhance stakeholder trust, protect beneficiary and patient information, and establish sustainable privacy practices. We look forward to the opportunity to support Bharat Manufacturing Industries Limited and add value through this assignment.
+
+
+Annexure 1-Definitions 
+
+Data Fiduciary -An entity that decides why and how personal data is processed, either alone or with others.
+Data Principal -The individual to whom the personal data relates. In the case of a child, this includes a parent or lawful guardian. For a person with a disability who cannot act independently, this includes the lawful guardian acting on their behalf.
+Data Processor- Any entity that processes personal data on behalf of a Data Fiduciary.
+Consent Manager - An entity that provides a single, transparent and interoperable platform through which a Data Principal may give, manage, review or withdraw consent.
+
+Annexure 2- Key penalties under the DPDP Act (as of the 2025 Rules)
+
+Up to ₹250 Crore: Failure to implement reasonable security safeguards to prevent data breaches.
+Up to ₹200 Crore: Failure to notify the Board or affected individuals regarding a personal data breach.
+Up to ₹200 Crore: Non-compliance with obligations regarding children's data, including tracking or behavioral monitoring.
+Up to ₹150 Crore: Non-compliance by a Significant Data Fiduciary (e.g., failure to appoint a Data Protection Officer or conduct audits).
+Up to ₹50 Crore: Any other violation of the Act or Rules, such as not obtaining valid consent or failure to handle data principal rights.
+Up to ₹10,000: Failure of a Data Principal to comply with their duties (e.g., impersonation or filing false complaints)
+
+TERMS  CONDITIONS
+
+The Standard “Other Terms and Conditions” applicable to this assignment are separately enclosed herewith.
+
+
+
+STANDARD TERMS  CONDITIONS
+
+Standard “Other Terms and Conditions” of
+CNK Associates LLP Applicable to the Engagement
+Confidentiality: Except with the prior consent of Bharat Manufacturing Industries Limited or as required by Indian Law, CNK  Associates LLP (CNK) shall hold all non-public and private information received by CNK from Bharat Manufacturing Industries Limited under strict confidence in accordance with our professional obligations and not release or disclose it to any person outside CNK organization. CNK may however need to share certain non-public and private information received from Bharat Manufacturing Industries Limited under this engagement to the peer reviewers under the Peer Review requirement of the ICAI.
+Indemnity: CNK shall not be liable under this foregoing indemnity provision for any consequential, special, direct, indirect, punitive or incidental loss, damage or liability (including loss of profits, data, business, opportunity cost, goodwill, or indemnification) arising out of or in connection with the performance of this Assignment.
+Entire Agreement and Non-Waiver: This engagement letter evidences the entire understanding and agreement between Bharat Manufacturing Industries Limited and CNK and supersedes all prior correspondence, agreement, understanding or arrangements whether written or oral, express or implied. This engagement letter may be amended by mutual consent, and all such amendments shall be in writing, duly signed by both parties.
+The waiver or relaxation whether partly or wholly of any of the terms and conditions of this engagement letter shall be valid only if in writing and duly signed by the authorized representatives of both CNK and Bharat Manufacturing Industries Limited and shall apply only to a particular occasion and shall not be continuing and further shall not constitute a waiver or relaxation of any other term or condition.
+No failure, delay or forbearance by either Party in exercising any power or right under the agreement shall operate as a waiver of that power or right.
+Governing Law  Jurisdiction: This engagement shall be governed by and construed in accordance with the laws of India (“Indian Law”).
+Dispute Resolution: Any dispute, controversy or claim arising out of or relating to this Agreement, or breach or termination thereof, shall be amicably resolved through discussions between Bharat Manufacturing Industries Limited and CNK.  In the event of failure of these discussions and judicial resolution becoming necessary, the matter shall be settled by Arbitration as per the provisions of the Indian Arbitration and Conciliation Act, 1996, as may be amended from time to time or its re-enactment (the “Arbitration” Act). The dispute shall be resolved preferably by a single arbitrator selected by mutual agreement of the Parties. The arbitration proceedings shall be held at Mumbai or any other place mutually agreed to by the parties. The language of the arbitration shall be English.
+Pending any reference to arbitration, both parties shall continue to perform their respective obligations under this engagement, and the parties shall not withhold, for any reason whatsoever including pendency of arbitration proceedings, payment of any amount which has become due under this engagement.
+Termination: CNK’s engagement hereunder may be terminated either by Bharat Manufacturing Industries Limited or by CNK at any time by giving written notice to that effect to the other Party. It is specifically clarified that the obligation for payment of any fee in respect of work already performed and expenses incurred prior to such termination and the provisions relating to indemnity and confidentiality will survive any such termination.
+Force Majeure: If the performance as specified in this offer letter is prevented, restricted, delayed or interfered by reason of:
+Fire, explosion, cyclone, floods
+War, revolution, acts of public enemies, blockage or embargo
+Any law, order proclamation, ordinance, demand or requirements of any Government or authority or representative of any such Government including restrictive trade practices or regulations.
+Strikes, shutdowns or labor disputes which are not instigated for the purpose of obligations herein
+Any other circumstances beyond the control of the Party affected.
+Then, notwithstanding anything contained herein, the Party affected shall be excused from its performance to the extent such performance relates to the above and provided the Party so affected uses its best efforts to remove such cause of non-performance and when removed the Party shall continue performance with utmost dispatch.
+Non-solicitation of Employees Covenant: Bharat Manufacturing Industries Limited shall not, during the continuity of this engagement and for a period of 12 months from the date of termination/completion thereof, solicit, endeavor to entice away, employ or offer to employ any person who is employed/ retained by CNK and with whom Bharat Manufacturing Industries Limited came into contact in the course of the engagement.
+The placing of an advertisement of a post available to a member of the public generally and the recruitment of a person through an employment agency or through web-based job advertisements shall not constitute a breach; provided that no member of Bharat Manufacturing Industries Limited encourages or advises such agency to approach any such person.
+Acceptance of deliverables under the engagement: The agreed deliverables shall be deemed to be accepted unless objections, if any, are raised in writing or on e-mail within a reasonable time period not exceeding 60 days. Deliverables may be accepted sooner if Bharat Manufacturing Industries Limited states so in writing, or authorizes work depending upon the deliverables, without first raising an objection.
+Limitation of Liability: We stress that our professional responsibilities are solely to the management of Bharat Manufacturing Industries Limited and do not extend to any other stakeholders whatsoever except as specifically stated in the engagement letter. Our findings communicated orally, or in terms of reports, notes or presentations are intended solely for the management or the specified recipient of our services as specified in our engagement letter.
+Our engagement may involve rendering services in the nature of professional advice/ opinions or making recommendations. CNK shall provide such services to Bharat Manufacturing Industries Limited without any obligation and without any liability whatsoever on CNK; and Bharat Manufacturing Industries Limited may, at its discretion, accept, modify or reject such advice without assigning any reason whatsoever. Any advice or comments offered about the possible outcome / results are expressions of opinion only and do not guarantee success.
+Headings: Headings are included in this agreement for convenience and shall not affect the construction or interpretation of this agreement.

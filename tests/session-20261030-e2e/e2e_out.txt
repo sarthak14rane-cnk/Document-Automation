@@ -1,0 +1,113 @@
+[complete] seeded 74 run-1 checks (acme + bharat)
+
+=== CLIENT: technova_fintech ===
+2026-10-30 11:34:28.245 | INFO     | template_master.views:get:99 - TEMPLATE_LIST_SERVED count=1
+2026-10-30 11:34:28.249 | INFO     | backend.middleware:__call__:26 - REQ GET /templates/ -> 200 (28.0 ms) body=
+  [PASS] technova_fintech: GET /templates/ -> 200
+  [PASS] technova_fintech: list contains row w/ full shape
+2026-10-30 11:34:28.321 | INFO     | template_master.views:get:115 - TEMPLATE_SCHEMA_SERVED template_id=34 name=E2E technova_fintech
+2026-10-30 11:34:28.321 | INFO     | backend.middleware:__call__:26 - REQ GET /templates/34/schema/ -> 200 (71.0 ms) body=
+  [PASS] technova_fintech: GET schema -> 200
+  [PASS] technova_fintech: schema has 3 ai_sections
+2026-10-30 11:34:28.329 | INFO     | engine.ai_bridge:resolve_opencode_bin:142 - AI_BRIDGE_BIN_RESOLVED shim=C:\Users\LT-IS-07\AppData\Local\Programs\nodejs\opencode.CMD exe=C:\Users\LT-IS-07\AppData\Local\Programs\nodejs\node_modules\@opencode\cli\bin\opencode.exe
+2026-10-30 11:34:28.329 | INFO     | engine.ai_bridge:generate_section:316 - AI_BRIDGE_BIN path=C:\Users\LT-IS-07\AppData\Local\Programs\nodejs\node_modules\@opencode\cli\bin\opencode.exe
+2026-10-30 11:35:20.623 | INFO     | engine.ai_bridge:generate_section:343 - AI_BRIDGE_OK model=opencode/mimo-v2.6-flash-free schema=text
+2026-10-30 11:35:20.623 | INFO     | template_master.views:post:244 - AI_SECTION_GENERATED schema=text model=default
+2026-10-30 11:35:20.624 | INFO     | backend.middleware:__call__:26 - REQ POST /ai/generate-section/ -> 200 (52299.2 ms) body={"prompt": "You are preparing the \"Entity Coverage\" summary for a proposal on the Digital Personal Data Protection Act, 2023 (DPDP Act) Impact Assessment & Compliance.\n\nClient organisation: {{ client.name }}{% if client.website %} (website: {{ client.website }}){% endif %}\n{% if client.profile %}Additional user-provided context about the organisation:\n{{ client.profile }}\n\n{% endif %}Entities/subsidiaries covered: {{ computed.entities_phrase }}\nIndustry / sectors of the organisation: {{ ai.industries_phrase }}\n\nUse publicly available knowledge of this organisation where possible (its sector, programs, beneficiary base, donors/clients, technology and data-sharing ecosystem), informed by the sectors above. Write a short, professional 2-paragraph (90-140 words) summary of how personal data is present within these entities and how DPDP would assess that data. Return ONLY the summary text \u2014 no headings, no bullets, no preamble, no markdown.\n", "output_schema": "text", "industries": ["Digital Payments", "Consumer Lending"], "client_context": {"name": "TechNova Fintech Private Limited", "short_name": "TechNova", "website": "https://technova.example", "entities": ["TechNova Payments", "TechNova Credit"], "profile": ""}}
+  [PASS] technova_fintech: AI client_profile (text) -> 200
+    AI client_profile: 52.3s -> "TechNova Payments and TechNova Credit process personal data across the digital payments and consumer lending value chain, including customer identity and contact details, KYC docu...
+  [PASS] technova_fintech: AI client_profile no tool-debris
+  [PASS] technova_fintech: AI profile industry-fit keyword
+2026-10-30 11:35:22.627 | INFO     | engine.ai_bridge:resolve_opencode_bin:142 - AI_BRIDGE_BIN_RESOLVED shim=C:\Users\LT-IS-07\AppData\Local\Programs\nodejs\opencode.CMD exe=C:\Users\LT-IS-07\AppData\Local\Programs\nodejs\node_modules\@opencode\cli\bin\opencode.exe
+2026-10-30 11:35:22.628 | INFO     | engine.ai_bridge:generate_section:316 - AI_BRIDGE_BIN path=C:\Users\LT-IS-07\AppData\Local\Programs\nodejs\node_modules\@opencode\cli\bin\opencode.exe
+2026-10-30 11:37:32.584 | INFO     | engine.ai_bridge:generate_section:343 - AI_BRIDGE_OK model=opencode/mimo-v2.6-flash-free schema=categories
+2026-10-30 11:37:32.585 | INFO     | template_master.views:post:244 - AI_SECTION_GENERATED schema=categories model=default
+2026-10-30 11:37:32.585 | INFO     | backend.middleware:__call__:26 - REQ POST /ai/generate-section/ -> 200 (129961.3 ms) body={"prompt": "For the organisation \"{{ client.name }}\" (entities/subsidiaries: {{ computed.entities_phrase }}){% if client.website %}, website: {{ client.website }}{% endif %}\n\nIndustry / sectors of the organisation: {{ ai.industries_phrase }}\n\nList the personal-data categories it is likely to process under India's DPDP Act 2023, inferred from its business, website and entity ecosystem, with reference to the sectors above. Base the list on real knowledge of the organisation where available.\n\nReturn ONLY valid JSON (no markdown, no explanation) as an array of 5-9 objects, each with exactly: \"id\" (short slug), \"title\" (short category name), \"summary\" (one sentence, max 30 words), \"bullets\" (3-6 short bullet strings). Keep category names concise.\n", "output_schema": "categories", "industries": ["Digital Payments", "Consumer Lending"], "client_context": {"name": "TechNova Fintech Private Limited", "short_name": "TechNova", "website": "https://technova.example", "entities": ["TechNova Payments", "TechNova Credit"], "profile": ""}}
+  [PASS] technova_fintech: AI categories (categories) -> 200
+    AI categories: 130.0s -> [{"id": "identity-kyc", "title": "Identity & KYC Data", "summary": "Collected during onboarding under RBI KYC norms to verify customer identity for payments and lending accounts.",...
+  [PASS] technova_fintech: AI categories categories shape
+  [PASS] technova_fintech: AI categories no tool-debris
+2026-10-30 11:37:34.602 | INFO     | engine.ai_bridge:resolve_opencode_bin:142 - AI_BRIDGE_BIN_RESOLVED shim=C:\Users\LT-IS-07\AppData\Local\Programs\nodejs\opencode.CMD exe=C:\Users\LT-IS-07\AppData\Local\Programs\nodejs\node_modules\@opencode\cli\bin\opencode.exe
+2026-10-30 11:37:34.602 | INFO     | engine.ai_bridge:generate_section:316 - AI_BRIDGE_BIN path=C:\Users\LT-IS-07\AppData\Local\Programs\nodejs\node_modules\@opencode\cli\bin\opencode.exe
+2026-10-30 11:38:01.650 | ERROR    | engine.ai_bridge:generate_section:354 - AI_BRIDGE_FAILED model=opencode/mimo-v2.6-flash-free schema=bullets reason=assistant output is not valid JSON
+2026-10-30 11:38:01.650 | ERROR    | template_master.views:post:241 - AI_SECTION_FAILED schema=bullets reason=AI generation failed: assistant output is not valid JSON
+2026-10-30 11:38:01.650 | INFO     | backend.middleware:__call__:26 - REQ POST /ai/generate-section/ -> 502 (27064.0 ms) body={"prompt": "You are preparing the \"Data Processing Characteristics under DPDPA\" section of a DPDP (Digital Personal Data Protection Act, 2023) Impact Assessment proposal.\n\nClient: {{ client.name }}\nEntities covered: {{ computed.entities_phrase }}\nIndustry / sectors of the organisation: {{ ai.industries_phrase }}\n\nReturn ONLY valid JSON (no markdown, no explanation) as an array of 6-10 strings. Each string is one bullet describing how and why personal data is processed, starting from the sources it is collected from (collection, use, sharing, storage, retention, security, third parties, cross-location, etc.) in the context of DPDP obligations. Be concise (max 35 words each) and formal. The JSON must be well-formed.\n", "output_schema": "bullets", "industries": ["Digital Payments", "Consumer Lending"], "client_context": {"name": "TechNova Fintech Private Limited", "short_name": "TechNova", "website": "https://technova.example", "entities": ["TechNova Payments", "TechNova Credit"], "profile": ""}}
+Bad Gateway: /ai/generate-section/
+  [FAIL] technova_fintech: AI processing_bullets (bullets) -> 200  -- status=502 body=b'{"detail":"AI generation failed: assistant output is not valid JSON","code":"ai_generation_failed"}'
+2026-10-30 11:38:03.819 | INFO     | backend.middleware:__call__:26 - REQ POST /templates/34/preview/ -> 400 (136.3 ms) body={"inputs": {"client.name": "TechNova Fintech Private Limited", "client.short_name": "TechNova", "client.address_lines": ["Tower B, Cyber City", "Gurugram 122002"], "client.contact.salutation": "Mr.", "client.contact.name": "R. Mehta", "client.website": "https://technova.example", "client.entities": ["TechNova Payments", "TechNova Credit"], "client.profile": "", "client.stakeholder_roles": ["Compliance Officer", "Data Protection Officer", "CTO", "CEO"], "client.flags": {"processes_children_data": true}, "reference_number": "CNK/PROP/T/52/26-27", "proposal_date": "2026-10-01", "validity_days": 15, "scope.phases": {}, "scope.addons": {}, "scope.bullet_overrides": {}, "commercials.total_fee": 4800000, "commercials.milestones": [{"label": "Engagement Initiation", "percent": 30}, {"label": "Draft Report Presentation", "percent": 40}, {"label": "Final Report Submission", "percent": 30}], "timeline.duration_weeks": "10", "timeline.reporting.weekly_day": "Monday", "timeline.reporting.monthly": "1st working day", "retention.working_papers_years": 1, "retention.reports_years": 2, "ai.industries": ["Digital Payments", "Consumer Lending"], "narrative.outcome_closing": "", "narrative.timeline_context": "", "narrative.conclusion_context": "", "cnk.partner.name": "A. Partner", "cnk.partner.designation": "Partner", "cnk.partner.email": "partner@cnk.example", "cnk.partner.phone": "+91 90000 00000", "cnk.joint_partner.enabled": true, "cnk.joint_partner.name": "T. Partner", "cnk.joint_partner.short": "TN"}, "ai_content": {"client_profile": "TechNova Payments and TechNova Credit process personal data across the digital payments and consumer lending value chain, including customer identity and contact details, KYC documents, transaction and device logs, credit repayment behaviour, and partner- and merchant-sourced records shared through aggregator and bureau ecosystems. This data supports beneficiary onboarding, disbursal, fraud monitoring, and customer servicing.\n\nThe DPDP Act, 2023 w
+Bad Request: /templates/34/preview/
+  [FAIL] technova_fintech: POST preview -> 200 docx  -- status=400 ct=application/json
+    PREVIEW FAIL BODY: b'{"detail":"Missing AI content for block(s): processing_bullets","code":"missing_ai_content","blocks":["processing_bullets"]}'
+
+=== ERROR CONTRACTS ===
+2026-10-30 11:38:03.824 | INFO     | backend.middleware:__call__:26 - REQ GET /templates/999999/schema/ -> 404 (2.2 ms) body=
+Not Found: /templates/999999/schema/
+  [PASS] err: schema unknown -> 404
+2026-10-30 11:38:03.828 | INFO     | backend.middleware:__call__:26 - REQ GET /templates/35/schema/ -> 404 (1.5 ms) body=
+Not Found: /templates/35/schema/
+  [PASS] err: schema inactive -> 404
+2026-10-30 11:38:03.829 | INFO     | template_master.views:get:99 - TEMPLATE_LIST_SERVED count=0
+2026-10-30 11:38:03.829 | INFO     | backend.middleware:__call__:26 - REQ GET /templates/ -> 200 (1.0 ms) body=
+  [PASS] err: list excludes inactive
+2026-10-30 11:38:03.832 | WARNING  | template_master.views:get:92 - TEMPLATE_SKIPPED_FILE_MISSING template_id=36 name=E2E bogus code=config_file_missing
+2026-10-30 11:38:03.833 | INFO     | template_master.views:get:99 - TEMPLATE_LIST_SERVED count=0
+2026-10-30 11:38:03.833 | INFO     | backend.middleware:__call__:26 - REQ GET /templates/ -> 200 (2.5 ms) body=
+  [PASS] err: list excludes missing-file row
+2026-10-30 11:38:03.835 | INFO     | backend.middleware:__call__:26 - REQ GET /templates/36/schema/ -> 409 (1.8 ms) body=
+Conflict: /templates/36/schema/
+  [PASS] err: schema missing config -> 409 code
+2026-10-30 11:38:03.837 | INFO     | backend.middleware:__call__:26 - REQ POST /templates/36/preview/ -> 409 (1.4 ms) body={}
+Conflict: /templates/36/preview/
+  [PASS] err: preview missing config -> 409
+2026-10-30 11:38:03.839 | INFO     | backend.middleware:__call__:26 - REQ GET /templates/37/schema/ -> 409 (1.3 ms) body=
+Conflict: /templates/37/schema/
+  [PASS] err: schema missing template -> 409 code
+2026-10-30 11:38:03.844 | INFO     | backend.middleware:__call__:26 - REQ GET /templates/38/schema/ -> 400 (2.7 ms) body=
+Bad Request: /templates/38/schema/
+  [PASS] err: schema invalid config -> 400 invalid_config
+2026-10-30 11:38:03.914 | INFO     | backend.middleware:__call__:26 - REQ POST /templates/39/preview/ -> 400 (67.6 ms) body={"inputs": {"no_such_key": "x"}}
+Bad Request: /templates/39/preview/
+  [PASS] err: preview unknown key -> 400
+2026-10-30 11:38:04.052 | INFO     | backend.middleware:__call__:26 - REQ POST /templates/39/preview/ -> 400 (137.6 ms) body={"inputs": {"client.name": "Acme Eye Care Foundation", "client.short_name": "Acme", "client.address_lines": ["12 Vision Street", "Mumbai 400001"], "client.contact.salutation": "Mr.", "client.contact.name": "R. Mehta", "client.website": "https://acme.example", "client.entities": ["Acme Trust", "Acme Clinics LLP"], "client.profile": "", "client.stakeholder_roles": ["Medical Director", "Program Lead", "HR Head", "IT Head", "Finance Head"], "client.flags": {"processes_children_data": true}, "reference_number": "CNK/PROP/C/50/26-27", "proposal_date": "2026-10-01", "validity_days": 15, "scope.phases": {}, "scope.addons": {}, "scope.bullet_overrides": {}, "commercials.total_fee": 2025000, "commercials.milestones": [{"label": "Engagement Initiation", "percent": 30}, {"label": "Draft Report Presentation", "percent": 40}, {"label": "Final Report Submission", "percent": 30}], "timeline.duration_weeks": "10", "timeline.reporting.weekly_day": "Tuesday", "timeline.reporting.monthly": "Last working day", "retention.working_papers_years": 1, "retention.reports_years": 2, "ai.industries": ["Eye Care", "Community Outreach"], "narrative.outcome_closing": "", "narrative.timeline_context": "", "narrative.conclusion_context": "", "cnk.partner.name": "A. Partner", "cnk.partner.designation": "Partner", "cnk.partner.email": "partner@cnk.example", "cnk.partner.phone": "+91 90000 00000", "cnk.joint_partner.enabled": true, "cnk.joint_partner.name": "B. Jointer", "cnk.joint_partner.short": "BJ"}}
+Bad Request: /templates/39/preview/
+  [PASS] err: preview w/o ai_content -> 400 missing_ai_content
+2026-10-30 11:38:04.145 | INFO     | backend.middleware:__call__:26 - REQ POST /templates/39/preview/ -> 400 (92.8 ms) body={"inputs": {"client.name": "", "client.short_name": "Acme", "client.address_lines": ["12 Vision Street", "Mumbai 400001"], "client.contact.salutation": "Mr.", "client.contact.name": "R. Mehta", "client.website": "https://acme.example", "client.entities": ["Acme Trust", "Acme Clinics LLP"], "client.profile": "", "client.stakeholder_roles": ["Medical Director", "Program Lead", "HR Head", "IT Head", "Finance Head"], "client.flags": {"processes_children_data": true}, "reference_number": "CNK/PROP/C/50/26-27", "proposal_date": "2026-10-01", "validity_days": 15, "scope.phases": {}, "scope.addons": {}, "scope.bullet_overrides": {}, "commercials.total_fee": 2025000, "commercials.milestones": [{"label": "Engagement Initiation", "percent": 30}, {"label": "Draft Report Presentation", "percent": 40}, {"label": "Final Report Submission", "percent": 30}], "timeline.duration_weeks": "10", "timeline.reporting.weekly_day": "Tuesday", "timeline.reporting.monthly": "Last working day", "retention.working_papers_years": 1, "retention.reports_years": 2, "ai.industries": ["Eye Care", "Community Outreach"], "narrative.outcome_closing": "", "narrative.timeline_context": "", "narrative.conclusion_context": "", "cnk.partner.name": "A. Partner", "cnk.partner.designation": "Partner", "cnk.partner.email": "partner@cnk.example", "cnk.partner.phone": "+91 90000 00000", "cnk.joint_partner.enabled": true, "cnk.joint_partner.name": "B. Jointer", "cnk.joint_partner.short": "BJ"}, "ai_content": {"client_profile": "x", "categories": [{"id": "a", "title": "b", "summary": "c", "bullets": ["d"]}], "processing_bullets": ["y"]}}
+Bad Request: /templates/39/preview/
+  [PASS] err: preview required empty -> 400
+2026-10-30 11:38:04.243 | INFO     | backend.middleware:__call__:26 - REQ POST /templates/39/preview/ -> 400 (97.3 ms) body={"inputs": {"client.name": "Acme Eye Care Foundation", "client.short_name": "Acme", "client.address_lines": ["12 Vision Street", "Mumbai 400001"], "client.contact.salutation": "Mr.", "client.contact.name": "R. Mehta", "client.website": "https://acme.example", "client.entities": ["Acme Trust", "Acme Clinics LLP"], "client.profile": "", "client.stakeholder_roles": ["Medical Director", "Program Lead", "HR Head", "IT Head", "Finance Head"], "client.flags": {"processes_children_data": true}, "reference_number": "CNK/PROP/C/50/26-27", "proposal_date": "2026-10-01", "validity_days": 15, "scope.phases": {}, "scope.addons": {}, "scope.bullet_overrides": {}, "commercials.total_fee": 2025000, "commercials.milestones": [{"label": "Engagement Initiation", "percent": 30}, {"label": "Draft Report Presentation", "percent": 40}, {"label": "Final Report Submission", "percent": 30}], "timeline.duration_weeks": "10", "timeline.reporting.weekly_day": "Tuesday", "timeline.reporting.monthly": "Last working day", "retention.working_papers_years": 1, "retention.reports_years": 2, "ai.industries": ["Eye Care", "Community Outreach"], "narrative.outcome_closing": "", "narrative.timeline_context": "", "narrative.conclusion_context": "", "cnk.partner.name": "A. Partner", "cnk.partner.designation": "Partner", "cnk.partner.email": "partner@cnk.example", "cnk.partner.phone": "+91 90000 00000", "cnk.joint_partner.enabled": true, "cnk.joint_partner.name": "B. Jointer", "cnk.joint_partner.short": "BJ"}, "ai_content": {"client_profile": "x", "categories": [{"id": "", "title": ""}], "processing_bullets": ["y"]}}
+Bad Request: /templates/39/preview/
+  [PASS] err: preview malformed categories -> 400
+2026-10-30 11:38:04.244 | INFO     | backend.middleware:__call__:26 - REQ POST /ai/generate-section/ -> 400 (0.6 ms) body={}
+Bad Request: /ai/generate-section/
+  [PASS] err: AI empty body -> 400
+2026-10-30 11:38:04.245 | INFO     | backend.middleware:__call__:26 - REQ POST /ai/generate-section/ -> 400 (0.4 ms) body={"prompt": "hi", "output_schema": "xml"}
+Bad Request: /ai/generate-section/
+  [PASS] err: AI bad schema -> 400
+2026-10-30 11:38:04.246 | WARNING  | template_master.views:post:235 - AI_SECTION_FAILED reason=unresolved_prompt_vars
+2026-10-30 11:38:04.246 | INFO     | backend.middleware:__call__:26 - REQ POST /ai/generate-section/ -> 400 (0.8 ms) body={"prompt": "Summarise {{ client.name }} for {{ reference_number }}.", "output_schema": "text"}
+Bad Request: /ai/generate-section/
+  [PASS] err: AI unresolved vars -> 400 code
+2026-10-30 11:38:04.248 | ERROR    | template_master.views:post:241 - AI_SECTION_FAILED schema=text reason=AI generation failed: forced
+2026-10-30 11:38:04.248 | INFO     | backend.middleware:__call__:26 - REQ POST /ai/generate-section/ -> 502 (1.6 ms) body={"prompt": "For {{ client.name }}.", "output_schema": "text", "client_context": {"name": "X"}}
+Bad Gateway: /ai/generate-section/
+  [PASS] err: AI bridge failure -> 502 code
+
+=== D4 ACCEPTANCE (verbatim ampersands) ===
+  [PASS] d4: subject line & verbatim
+  [PASS] d4: phase 2a title & verbatim
+  [PASS] d4: phase 2b title & verbatim
+  [PASS] d4: phase 3 title & verbatim
+  [PASS] d4: risk-list title & verbatim
+  [PASS] d4: golden section headings & verbatim
+  [PASS] d4: bharat_manufacturing AI &-title verbatim (former FAIL)
+  [PASS] d4: technova_fintech AI &-title verbatim (former FAIL)
+
+=== GOLDEN STRUCTURAL COVERAGE (normalized) ===
+  [PASS] markers sanity present in golden file
+  [PASS] all markers present in fresh acme render
+
+=== DB HYGIENE ===
+  [PASS] DB clean: no E2E rows at end (as found)
+
+=== COMBINED SUMMARY: 113 checks, 2 FAIL ===
+results.md written (113 checks)

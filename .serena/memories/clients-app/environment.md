@@ -6,10 +6,11 @@ Actual keys (note: POSTGRES_* prefix, NOT DB_*):
 ```
 POSTGRES_HOST=localhost
 POSTGRES_PORT=2478
-POSTGRES_USER=doc_user
-POSTGRES_PASSWORD=1422
-POSTGRES_DB=django_db
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=4cAnZanSDJ08lUQr
+POSTGRES_DB=cnk
 ```
+(2026-10-26: user switched DB from `django_db`/`doc_user` to `cnk`/`postgres`; migrations were applied fresh into `cnk`.)
 `.env.example` (committable template) lives beside it.
 
 ## CRITICAL: IPv6/IPv4 host stall
@@ -34,11 +35,8 @@ A wrong path fails only at WSGI load (`runserver`), NOT at `manage.py check`. To
 - Business events logged as `CLIENT_CREATED` / `CLIENT_UPDATED` / `CLIENT_DEACTIVATED`.
 - `logs/` and `.env` are git-ignored.
 
-## KNOWN BLOCKER: unit tests cannot run
-`manage.py test clients` fails: `permission denied to create database`.
-`doc_user` lacks CREATEDB. Fix (requires a PostgreSQL superuser):
-```sql
-ALTER ROLE doc_user CREATEDB;
-```
-Then `uv run python manage.py test clients` (creates/drops scratch `test_django_db`; dev DB untouched).
-Until then, validation was done via a live-server smoke test instead.
+## Unit tests — RUNNABLE (since 2026-10-26)
+`uv run python manage.py test clients` runs against scratch DB `test_cnk` (runs as `postgres` superuser now, so CREATEDB is moot).
+Latest run: 22 tests, 21 passed in ~0.5s. Two regression tests were added for defects D1/D2 (both now fixed — see `mem:clients-app/api-contract`).
+Only remaining failure: `test_create_readonly_fields_ignored` (tests.py:101) asserts hardcoded `client_id == 1`, but Postgres BigAutoField sequences do NOT roll back between test methods, so the id depends on how many clients earlier tests created (got 5). Fix: assert `client_id != 999` instead of a hardcoded 1 (D3, still open).
+Also confirmed: test-run requests are fast (no IPv6 stall).

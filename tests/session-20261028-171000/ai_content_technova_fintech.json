@@ -1,0 +1,110 @@
+{
+  "client_profile": "TechNova Payments and TechNova Credit process personal data across the digital payments and consumer lending value chain, including customer identity and contact details, KYC documents, transaction and device logs, credit repayment behaviour, and partner- and merchant-sourced records shared through aggregator and bureau ecosystems. This data supports beneficiary onboarding, disbursal, fraud monitoring, and customer servicing.\n\nThe DPDP Act, 2023 would assess this data through purpose limitation, consent notices in clear languages, data minimisation, security safeguards, and grievance redressal, while obligations of Data Fiduciaries and Data Processors govern cross-entity sharing, retention limits, and breach notification for both entities.",
+  "categories": [
+    {
+      "id": "identity-kyc",
+      "title": "Identity & KYC Data",
+      "summary": "Collected during onboarding under RBI KYC norms to verify customer identity for payments and lending accounts.",
+      "bullets": [
+        "Full name, date of birth, gender, photograph and signature",
+        "PAN, Aadhaar number and e-KYC authentication records",
+        "Passport, driving licence or voter ID used for KYC",
+        "Video-KYC recordings and liveness checks (TechNova Credit onboarding)",
+        "Mother's name, marital status and nominee details"
+      ]
+    },
+    {
+      "id": "contact-demographic",
+      "title": "Contact & Demographic Data",
+      "summary": "Basic contact details used for account management, OTP delivery, statements and service communications across both subsidiaries.",
+      "bullets": [
+        "Mobile number, email address, postal and current residence address",
+        "Occupation, employer, income bracket and education (lending applications)",
+        "Preferred language and communication channel",
+        "Emergency or reference contacts supplied by the customer"
+      ]
+    },
+    {
+      "id": "financial-transaction",
+      "title": "Financial & Transaction Data",
+      "summary": "Core payment and account data processed by TechNova Payments to operate wallets, UPI handles and merchant settlements.",
+      "bullets": [
+        "Bank account numbers, IFSC, card PAN, expiry and CVV tokens",
+        "UPI VPA handles, wallet balances and instrument tokens",
+        "Transaction logs: amount, timestamp, counterparty, channel, status",
+        "Merchant settlement, refund and chargeback records",
+        "Bank statements and income evidence submitted for loan eligibility"
+      ]
+    },
+    {
+      "id": "credit-lending",
+      "title": "Credit & Loan Data",
+      "summary": "Data processed by TechNova Credit for underwriting, disbursal, repayment tracking and collections under RBI digital-lending guidelines.",
+      "bullets": [
+        "Loan applications, sanction letters, KFS and agreement records",
+        "Credit bureau scores and reports (CIBIL, Experian, Equifax, CRIF)",
+        "Repayment schedules, EMI mandates, delinquency and write-off status",
+        "Account-Consent-Framework (account aggregator) data shared with consent",
+        "Collection call logs and settlement negotiations"
+      ]
+    },
+    {
+      "id": "device-digital",
+      "title": "Device & Digital Behavioural Data",
+      "summary": "App and web telemetry collected for security, fraud prevention and UX analytics, raising DPDP purpose-limitation considerations.",
+      "bullets": [
+        "Device identifiers, OS, app version and requested app permissions",
+        "IP address, coarse geolocation and session logs",
+        "Cookies, device fingerprints and in-app clickstream",
+        "Crash logs and performance telemetry",
+        "RBI digital-lending rules restrict unnecessary contact/SMS access"
+      ]
+    },
+    {
+      "id": "fraud-compliance",
+      "title": "Fraud, AML & Compliance Data",
+      "summary": "Data retained to meet PMLA, RBI and tax obligations, including screening, audit trails and fraud-investigation records.",
+      "bullets": [
+        "AML/CFT screening results against sanctions and PEP lists",
+        "Suspicious-transaction monitoring flags and STR/CTR filings",
+        "Fraud investigation case files and device-blacklist records",
+        "Audit logs and evidence retained for statutory inspection",
+        "TDS/GST-linked identity records for reporting"
+      ]
+    },
+    {
+      "id": "consent-grievance",
+      "title": "Consent, Grievance & Support Records",
+      "summary": "Records evidencing DPDP consent artefacts and customer-service interactions handled by the group grievance officer.",
+      "bullets": [
+        "Consent notices, artefacts, timestamps and withdrawal records",
+        "Grievance tickets, complaint correspondence and resolution timelines",
+        "Call-centre recordings, chat transcripts and email threads",
+        "Escalations to DPDPB or sectoral ombudsman, if filed"
+      ]
+    },
+    {
+      "id": "marketing-preference",
+      "title": "Marketing & Preference Data",
+      "summary": "Contact lists, campaign responses and preference flags used for cross-selling loans and payment offers.",
+      "bullets": [
+        "Campaign response history across SMS, push, email and WhatsApp",
+        "Product-interest and eligibility segments",
+        "Do-not-call, opt-out and consent-withdrawal flags (TRAI and DPDP)",
+        "Referral and loyalty programme participation data",
+        "Children's data barred from tracking-based targeted ads absent parental consent"
+      ]
+    },
+    {
+      "id": "merchant-partner",
+      "title": "Merchant & Partner Data",
+      "summary": "Individual-level data of merchants, agents, vendors and employees processed for onboarding, payments and compliance across the group.",
+      "bullets": [
+        "Proprietor/director KYC for merchant onboarding and UPI/PSP tie-ups",
+        "Settlement bank details and merchant transaction history",
+        "Field-agent location tracking and performance records",
+        "Employee HR, payroll and background-verification records"
+      ]
+    }
+  ]
+}

@@ -101,6 +101,43 @@ class ClientCRUDTests(APITestCase):
         self.assertEqual(client.client_id, 1)
         self.assertTrue(client.is_active)
 
+    def test_create_without_optional_fields_returns_201(self):
+        """Regression (D1): omitted client_short_name must become "", not NULL.
+
+        Previously POST with only the required keys crashed with a 500
+        IntegrityError (NotNullViolation on client_short_name).
+        """
+        response = self.client.post(
+            self.LIST_URL,
+            {
+                "client_name": "Alpha Ltd",
+                "client_spoc_name": "Priya Sharma",
+                "client_spoc_email": "priya@alpha.com",
+            },
+            format="json",
+        )
+        self.assertEqual(response.status_code, status.HTTP_201_CREATED, response.content)
+        client = Client.objects.get()
+        self.assertEqual(client.client_short_name, "")
+        self.assertEqual(client.client_industries, [])
+        self.assertEqual(client.list_of_entities, [])
+
+    def test_create_null_list_fields_coerced_to_empty(self):
+        """Regression (D2): explicit null for list fields coerces to [] (plan §3.4).
+
+        Previously POST with client_industries/list_of_entities = null returned
+        400 "This field may not be null."
+        """
+        response = self.client.post(
+            self.LIST_URL,
+            self._payload(client_industries=None, list_of_entities=None),
+            format="json",
+        )
+        self.assertEqual(response.status_code, status.HTTP_201_CREATED, response.content)
+        client = Client.objects.get()
+        self.assertEqual(client.client_industries, [])
+        self.assertEqual(client.list_of_entities, [])
+
     # ---- Read (GET) ----
 
     def test_list_returns_active_only_newest_first(self):

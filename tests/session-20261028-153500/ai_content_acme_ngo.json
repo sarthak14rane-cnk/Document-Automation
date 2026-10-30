@@ -1,0 +1,106 @@
+{
+  "client_profile": "Across Acme Eye Care Foundation, Acme Trust and Acme Clinics LLP, personal data arises throughout the eye-care continuum: registration and consent forms at vision screening and outreach camps, electronic health records and surgical details, imaging and biometric identifiers used in teleophthalmology, and donor, employee and volunteer records. As Data Fiduciaries under the DPDP Act, each entity must map these flows, issue clear notices, establish valid consent for health data, and honour withdrawal, access, correction and erasure rights.\n\nThe assessment would evaluate purpose limitation, retention standards, security safeguards, breach reporting to the Data Protection Board, and data-sharing arrangements with hospitals, insurers and technology partners. Given large-scale processing of vulnerable rural beneficiaries and children's data, the foundation should also weigh Significant Data Fiduciary duties such as DPIAs and audits, ensuring the Trust's programs and the LLP's clinical operations maintain consistent, auditable compliance.",
+  "categories": [
+    {
+      "id": "patient-identity-data",
+      "title": "Patient Identity Data",
+      "summary": "Basic identifiers of patients visiting Acme Clinics LLP facilities for consultations, surgeries and diagnostics.",
+      "bullets": [
+        "Full name, age/date of birth, gender and photograph at registration",
+        "Government ID references (Aadhaar, voter ID, ration card) for patient verification",
+        "Permanent and current address, including rural/tribal location for outreach cases",
+        "Emergency contact and next-of-kin details"
+      ]
+    },
+    {
+      "id": "health-medical-records",
+      "title": "Health & Ophthalmic Records",
+      "summary": "Detailed medical data generated through eye examinations, diagnoses, surgeries and post-operative follow-up care.",
+      "bullets": [
+        "Diagnoses such as cataract, glaucoma, diabetic retinopathy, refractive errors and corneal conditions",
+        "Visual acuity readings, intraocular pressure, prescriptions and spectacle power records",
+        "Surgical records, consent forms, implant/lens details and operative notes",
+        "Medical history, comorbidities (e.g. diabetes) and current medications",
+        "Follow-up visit notes, complications and referral records to partner hospitals"
+      ]
+    },
+    {
+      "id": "diagnostic-imaging-biometrics",
+      "title": "Ocular Imaging & Biometrics",
+      "summary": "Specialised eye imaging and biometric measurements captured during diagnosis and pre-surgical workups.",
+      "bullets": [
+        "Retinal fundus photographs and OCT scans",
+        "Corneal topography, pachymetry and IOL biometry measurements",
+        "Anterior segment images and slit-lamp photographs",
+        "Potential linkage with ABHA (Ayushman Bharat Health Account) identifiers"
+      ]
+    },
+    {
+      "id": "outreach-camp-beneficiaries",
+      "title": "Community Outreach Beneficiaries",
+      "summary": "Data on free-surgery beneficiaries and camp attendees collected through the Trust's community screening programmes.",
+      "bullets": [
+        "Camp registration forms with name, village, income category and BPL/ration card details",
+        "School and workplace screening records, including children's data requiring parental consent",
+        "Transport, food and accommodation arrangements for rural camp patients",
+        "Post-camp outcome tracking, vision-restored reporting and impact documentation",
+        "Consent and declaration forms for free surgeries and photograph usage in reports"
+      ]
+    },
+    {
+      "id": "donor-financial-data",
+      "title": "Donor & Financial Data",
+      "summary": "Personal and payment information of donors supporting the Trust's charitable eye-care initiatives.",
+      "bullets": [
+        "Donor name, PAN, contact details and donation receipts for 80G claims",
+        "Bank account, UPI, card and cheque details for contribution processing",
+        "Corporate CSR partnership contacts and funding documentation",
+        "Grant-making foundation due-diligence records"
+      ]
+    },
+    {
+      "id": "billing-insurance-data",
+      "title": "Billing & Insurance Data",
+      "summary": "Financial and scheme-related records tied to patient treatment at the LLP's clinics.",
+      "bullets": [
+        "Insurance and TPA claim details for eligible procedures",
+        "Government scheme beneficiaries (e.g. state cataract surgery schemes, PMJAY)",
+        "Payment receipts, invoices and outstanding dues",
+        "Tax invoices with GST and patient billing address"
+      ]
+    },
+    {
+      "id": "workforce-volunteer-data",
+      "title": "Staff, Doctors & Volunteers",
+      "summary": "Employment and engagement records of the Trust's and LLP's workforce, including visiting specialists and camp volunteers.",
+      "bullets": [
+        "Employee records: name, address, salary, bank details, Aadhaar/PF references",
+        "Doctor credentials, medical council registration and qualification certificates",
+        "Volunteer and field-worker details for outreach camps",
+        "Attendance, duty rosters and performance records"
+      ]
+    },
+    {
+      "id": "digital-communication-data",
+      "title": "Digital & Communication Data",
+      "summary": "Personal data captured through the acme.example website, appointment channels and patient communication.",
+      "bullets": [
+        "Website contact and appointment request forms (name, phone, email, query text)",
+        "Cookies, IP address, device and usage analytics on the website",
+        "Call recordings and WhatsApp/SMS correspondence for appointments and reminders",
+        "Grievance and feedback submissions, including nodal grievance officer correspondence"
+      ]
+    }
+  ],
+  "processing_bullets": [
+    "Personal data is collected from patients, beneficiaries, donors, employees and volunteers through clinic registrations, outreach camps, eye-screening programs, websites and physical application forms.",
+    "Health-related data, including ocular records, diagnostic results and treatment history, is processed by Acme Clinics LLP for diagnosis, treatment, referral and continuity of patient care.",
+    "Data collected by Acme Trust during community outreach and screening camps is shared with Acme Clinics LLP and partner institutions for referrals and follow-up services.",
+    "Collection relies on consent and notice mechanisms across digital and offline channels, as required under DPDP obligations for processing personal data of beneficiaries and patients.",
+    "Personal data is retained in electronic health records, physical case files and donor databases, with retention periods governed by clinical, statutory, contractual and programmatic requirements.",
+    "Third-party service providers, including IT vendors, cloud hosting partners, laboratories and outreach partners, process personal data under contractual data protection and confidentiality obligations.",
+    "Personal data may be accessed across multiple clinic locations, field offices and program sites, necessitating role-based access controls, audit trails and secure authentication.",
+    "Donor and funding-related data is shared with government authorities, statutory bodies and funding partners for grants, reporting, audit and regulatory compliance purposes.",
+    "Sensitive personal data, particularly health data of vulnerable beneficiaries including minors and the elderly, is safeguarded through encryption, access restriction, retention limits and breach-response measures."
+  ]
+}

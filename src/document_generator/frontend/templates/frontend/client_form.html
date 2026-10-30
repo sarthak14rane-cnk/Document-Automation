@@ -1,0 +1,60 @@
+{% extends "frontend/base.html" %}
+{% load static %}
+
+{% block title %}{% if mode == 'edit' %}Edit Client{% else %}Add New Client{% endif %} — Document Automation{% endblock %}
+
+{% block content %}
+<h1>{% if mode == 'edit' %}Edit Client{% else %}Add New Client{% endif %}</h1>
+
+<div id="form-error" class="alert alert-danger d-none" role="alert"></div>
+
+<form id="client-form" novalidate method="post" action="#"
+      data-mode="{{ mode }}" data-client-id="{{ client_id|default_if_none:'' }}">
+    <div class="mb-3">
+        <label for="id_client_name" class="form-label">Client Name <span class="text-danger">*</span></label>
+        <input type="text" class="form-control" id="id_client_name" name="client_name" maxlength="255" required>
+        <div class="invalid-feedback" data-error-for="client_name"></div>
+    </div>
+
+    <div class="mb-3">
+        <label for="id_client_short_name" class="form-label">Short Name</label>
+        <input type="text" class="form-control" id="id_client_short_name" name="client_short_name" maxlength="100">
+        <div class="invalid-feedback" data-error-for="client_short_name"></div>
+    </div>
+
+    <div class="mb-3">
+        <label for="id_client_industries" class="form-label">Industries</label>
+        <input type="text" class="form-control" id="id_client_industries" name="client_industries"
+               placeholder="Comma-separated, e.g. Manufacturing, FMCG">
+        <div class="form-text">Comma-separated list. Leave blank if none.</div>
+        <div class="invalid-feedback" data-error-for="client_industries"></div>
+    </div>
+
+    <div class="mb-3">
+        <label for="id_client_spoc_name" class="form-label">SPOC Name <span class="text-danger">*</span></label>
+        <input type="text" class="form-control" id="id_client_spoc_name" name="client_spoc_name" maxlength="255" required>
+        <div class="invalid-feedback" data-error-for="client_spoc_name"></div>
+    </div>
+
+    <div class="mb-3">
+        <label for="id_client_spoc_email" class="form-label">SPOC Email <span class="text-danger">*</span></label>
+        <input type="email" class="form-control" id="id_client_spoc_email" name="client_spoc_email" maxlength="254" required>
+        <div class="invalid-feedback" data-error-for="client_spoc_email"></div>
+    </div>
+
+    <div class="mb-3">
+        <label for="id_list_of_entities" class="form-label">Entities</label>
+        <input type="text" class="form-control" id="id_list_of_entities" name="list_of_entities"
+               placeholder="Comma-separated, e.g. Acme Pvt Ltd, Acme LLP">
+        <div class="form-text">Comma-separated list. Leave blank if none.</div>
+        <div class="invalid-feedback" data-error-for="list_of_entities"></div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Client</button>
+    <a class="btn btn-outline-secondary" href="/">Cancel</a>
+</form>
+{% endblock %}
+
+{% block scripts %}
+<script src="{% static 'frontend/js/client_form.js' %}" defer></script>
+{% endblock %}

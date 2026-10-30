@@ -1,0 +1,15 @@
+/*
+ * Custom tweaks for the Document Automation UI.
+ * Loads after Bootstrap; intentionally minimal.
+ */
+
+/* Keep the Edit/Delete buttons compact in the clients table. */
+.table-column-actions {
+    width: 1%;
+    white-space: nowrap;
+}
+
+/* Keep the add/edit client form comfortably readable. */
+#client-form {
+    max-width: 560px;
+}

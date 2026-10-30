@@ -1,0 +1,103 @@
+{
+  "client_profile": "TechNova Fintech Private Limited, through TechNova Payments and TechNova Credit, processes personal data across the digital payments and consumer lending value chain. TechNova Payments handles customer onboarding records, KYC documentation, transaction logs, device and channel identifiers, and merchant settlement data, while TechNova Credit processes loan applications, income and employment details, credit bureau fetches, repayment histories, and collections contact records. This data also flows through partners such as banks, NBFCs, payment aggregators, credit bureaus, cloud and analytics vendors, and account aggregators, alongside limited data-sharing arrangements with lenders and collection agencies.\n\nUnder the DPDP Act, 2023, this ecosystem would be assessed for the legality of processing, including whether valid consent or specified legitimate uses apply, and whether purpose limitation, data minimisation, accuracy, retention limits and reasonable security safeguards are met. Assessment would also examine notice adequacy, data principal rights to access, correction, erasure and grievance redressal, breach reporting obligations to the Data Protection Board, Significant Data Fiduciary classification and its additional duties, and compliance obligations for processors and cross-border transfers.",
+  "categories": [
+    {
+      "id": "identity-kyc",
+      "title": "Identity & KYC Data",
+      "summary": "Government-issued identifiers and identity proof collected for account opening and mandatory KYC verification.",
+      "bullets": [
+        "Full name, date of birth, gender, photograph and signature",
+        "PAN, Aadhaar (where permitted), passport, voter ID and driving licence",
+        "Address, nationality and KYC verification status from UIDAI/CKYC/other registries",
+        "Video KYC or liveness captures for remote onboarding"
+      ]
+    },
+    {
+      "id": "contact-data",
+      "title": "Contact & Demographic Data",
+      "summary": "Contact details and demographics used for communication, service delivery and fraud checks.",
+      "bullets": [
+        "Mobile number, email address, residential and permanent address",
+        "Preferred language, occupation, employer and income band",
+        "Device and IP-derived location signals used to corroborate contact data",
+        "Relationship manager or employer contact details for payroll-linked products"
+      ]
+    },
+    {
+      "id": "financial-transaction",
+      "title": "Financial & Transaction Data",
+      "summary": "Core payment and settlement records processed by TechNova Payments for money movement.",
+      "bullets": [
+        "Bank account numbers, IFSC, card PAN, cardholder name and expiry",
+        "Payment instructions, UPI handles, wallet balances and settlement references",
+        "Merchant, biller and remittance counterparty details",
+        "Statements, limits, chargebacks, returns and reversal histories"
+      ]
+    },
+    {
+      "id": "credit-bureau",
+      "title": "Credit & Lending Data",
+      "summary": "Borrower credit information used by TechNova Credit for underwriting and repayment monitoring.",
+      "bullets": [
+        "Credit scores and bureau reports from CIBIL, Experian, Equifax and CRIF",
+        "Loan applications, sanctioned limits, tenor, interest rate and repayment schedules",
+        "Existing EMIs, delinquencies, written-offs and settlement records",
+        "Purpose of loan, declared liabilities and collateral or guarantee details"
+      ]
+    },
+    {
+      "id": "kyc-screening",
+      "title": "Sanctions, AML & Fraud Signals",
+      "summary": "Screening and monitoring data required under PMLA, RBI and payment-scheme rules.",
+      "bullets": [
+        "Sanctions, PEP and adverse-media screening results",
+        "Transaction monitoring alerts, velocity checks and anomaly flags",
+        "Device fingerprints, geolocation and session telemetry for fraud detection",
+        "Suspicious transaction reports shared with FIU-IND"
+      ]
+    },
+    {
+      "id": "complaint-dispute",
+      "title": "Complaint & Dispute Records",
+      "summary": "Interaction records for grievance redressal, chargebacks and regulator-mandated service standards.",
+      "bullets": [
+        "Support tickets, call recordings, chat transcripts and emails",
+        "Chargeback, dispute and refund evidence exchanged with issuers or merchants",
+        "Grievance escalation records under RBI and DPDP redressal timelines",
+        "Survey responses and customer satisfaction feedback"
+      ]
+    },
+    {
+      "id": "digital-usage",
+      "title": "Digital & Device Data",
+      "summary": "Online behavioural and technical data collected through the website, app and partner integrations.",
+      "bullets": [
+        "Cookies, IP address, device ID, OS, browser and app version logs",
+        "Clickstream, feature usage, session duration and funnel events",
+        "Push notification tokens, permission states and in-app analytics",
+        "Consent artefacts and preference choices recorded for DPDP compliance"
+      ]
+    },
+    {
+      "id": "consent-nominee",
+      "title": "Consent, Nominee & Family Data",
+      "summary": "Consent and related-individual data captured to evidence lawful processing under DPDP.",
+      "bullets": [
+        "Consent records, purpose notice versions and withdrawal requests",
+        "Nominee name, relationship, contact details and KYC for insurance or deposits",
+        "Authorized representative or mandate-holder details for power-of-attorney users",
+        "Data-sharing permissions for co-lending partners, banks and payment networks"
+      ]
+    }
+  ],
+  "processing_bullets": [
+    "Personal data is collected directly from customers during onboarding and KYC ( PAN, Aadhaar, bank details, video KYC ) and indirectly from credit bureaus, regulators, and partners, per DPDP Sections 5 and 6.",
+    "Data is processed to provide payments and lending services, verify identity, assess creditworthiness, prevent fraud, and meet RBI and statutory obligations, under Section 7 lawful purpose and consent-derived use limitations.",
+    "Consent is obtained for specified purposes via clear notice; the Data Fiduciary supports access, correction, erasure, and grievance redress through the grievance officer, as required by Sections 6, 8, 12 and 13.",
+    "Data is shared with payment partners, lenders, banking partners, credit bureaus, and KYC/AML repositories on a need-to-know basis governed by Section 8(1) processing duties and Section 8(7) contractual obligation flows.",
+    "Sensitive categories, including financial and biometric KYC data, receive enhanced controls, with Significant Data Fiduciary obligations (DPO, audits, DPIA) considered where scale and sensitivity warrant notification.",
+    "Data is stored on encrypted, access-controlled onshore infrastructure with backups and logs; retention follows statutory periods (RBI, tax, AML), after which erasure is executed per Sections 9 and 10.",
+    "Personal data is not shared with other fiduciaries for behavioural advertising or profiling without valid separate consent, consistent with Section 6 consent and notice requirements and Data Principal rights.",
+    "Cross-border transfers are restricted to jurisdictions not restricted by government notification; processors and group entities operate under Section 8(7) written contracts and audited security safeguards."
+  ]
+}

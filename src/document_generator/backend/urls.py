@@ -20,4 +20,9 @@ from django.urls import include, path
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('clients/', include('clients.urls')),
+    path('', include('template_master.urls')),
+    # Keep this include LAST: page URLs shared with the API namespace
+    # (/clients/add/, /clients/{id}/edit/) resolve only because the API
+    # detail route accepts numeric ids and is tried first.
+    path('', include('frontend.urls')),
 ]

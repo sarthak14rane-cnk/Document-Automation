@@ -17,7 +17,12 @@ Routes: `/clients/` and `/clients/{client_id}/` — **trailing slashes required*
 - **Soft delete**: `destroy()` sets `is_active=False` then `save()` — must NOT use `QuerySet.update()` or `updated_at` won't refresh.
 - **Case-insensitive duplicate name -> 409** via `clients/exceptions.py:Conflict(APIException)` with `status_code=409`; raised from serializer `validate()`. Check runs against ALL rows (soft-deleted names still block re-registration); update excludes own pk.
 - `client_id` is `BigAutoField(primary_key=True)` — auto-generated, read-only. `is_active`, `created_at`, `updated_at` also read-only.
-- `client_industries` and `list_of_entities` are `JSONField(default=list)` — must be arrays of strings; `None` coerced to `[]`.
+- `client_industries` and `list_of_entities` are `JSONField(default=list)` — must be arrays of strings. Explicit `null` IS accepted and coerced to `[]` (both serializers `allow_null` via `extra_kwargs`; `_validate_string_list` coerces `None → []`) — verified on create and PUT.
+
+## Runtime-verified 2026-10-26 (live server + direct SQL on cnk) — defects
+- ~~D1~~ **RESOLVED 2026-10-26**: `ClientSerializer` declares `client_short_name = CharField(required=False, allow_blank=True, default="")` — omitted key now stores `""`. Serializer-only, no migration.
+- ~~D2~~ **RESOLVED 2026-10-26**: both serializers set `allow_null: True` via `extra_kwargs` for `client_industries`/`list_of_entities`; `_validate_string_list` coerces `None → []`. Works on create AND PUT.
+- Everything else verified correct: 201/409(exact+case-variant, create AND update, self-excluded on update)/400/404(unknown+inactive+non-numeric)/405/204, active-only newest-first, PUT all-keys-required, soft delete + updated_at refresh, whitespace stripping (name/spoc/email), 256-char name → 400, empty lists OK, soft-deleted names still block re-registration. Full details: tests/session-20261026-104703/RESULTS.md
 
 ## Key files
 - `clients/models.py` — Client model + `UniqueConstraint(Func(F("client_name"), function="LOWER"))`
@@ -25,4 +30,4 @@ Routes: `/clients/` and `/clients/{client_id}/` — **trailing slashes required*
 - `clients/views.py` — `ClientViewSet` (`http_method_names` excludes "patch")
 - `clients/urls.py` — SimpleRouter, `basename="client"`
 - `clients/exceptions.py` — `Conflict`
-- `clients/tests.py` — 20-test suite (not yet runnable, see `mem:clients-app/environment`)
+- `clients/tests.py` — 22-test suite (runnable; 21 pass, 1 test-only failure, see `mem:clients-app/environment`)

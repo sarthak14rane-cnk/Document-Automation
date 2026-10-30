@@ -1,0 +1,125 @@
+{
+  "client_profile": "Acme Eye Care Foundation, operating through Acme Trust and Acme Clinics LLP, collects extensive personal data across its eye care delivery and community outreach programs. Patient records from screenings, cataract surgeries and consultations at Acme Clinics LLP include names, ages, contact details, medical histories and diagnostic images, while Acme Trust processes beneficiary data for rural and school screening camps, donor and volunteer information, employee records, and consent or grievance documentation shared with government schemes, CSR partners and outreach implementers.\n\nA DPDP Act impact assessment would map these processing activities against the Act's requirements: obtaining free, specific, informed and unconditional consent (with clear purposes and notice in vernacular languages), honouring the Rights of Data Principals to access, correction, erasure and grievance redressal, limiting collection to lawful specified purposes, and assessing fiduciary obligations for children's data from school programs. The assessment would further evaluate consent managers, breach notification readiness, retention limits, and data-sharing agreements with trustees, clinics, partners and processors.",
+  "categories": [
+    {
+      "id": "patient-identity-contact",
+      "title": "Patient Identity & Contact Data",
+      "summary": "Acme Clinics LLP registers patients for consultations, surgeries and follow-ups, collecting identifying and contact details at every touchpoint.",
+      "bullets": [
+        "Full name, age/date of birth, gender",
+        "Mobile number, email address, residential address",
+        "Government ID (Aadhaar/PAN) for registration and claims",
+        "Emergency contact and referral details",
+        "Appointment, visit slip and queue records"
+      ]
+    },
+    {
+      "id": "clinical-ophthalmic-health",
+      "title": "Clinical & Ophthalmic Health Data",
+      "summary": "Eye care inherently generates detailed health data \u2014 diagnostics, imaging and surgical records held by Acme Clinics LLP.",
+      "bullets": [
+        "Visual acuity, refraction, IOP, slit-lamp and fundus findings",
+        "Retinal scans, OCT, visual field and biometry results",
+        "Diagnoses, prescriptions, treatment plans, surgery and procedure notes",
+        "Medical history, allergies and comorbidities",
+        "Discharge summaries, follow-up and teleconsultation records"
+      ]
+    },
+    {
+      "id": "biometric-iris-images",
+      "title": "Biometric & Iris/Retina Images",
+      "summary": "Retinal and iris photographs taken for diagnosis also function as biometric identifiers, requiring careful handling under India's DPDP framework.",
+      "bullets": [
+        "Fundus and anterior-segment images usable as identifiers",
+        "Aadhaar/eKYC authentication for scheme and subsidy eligibility",
+        "Fingerprint or thumb impressions at registration desks",
+        "Patient deduplication across Acme Clinics and Trust camps",
+        "Must not be repurposed for tracking or profiling without notice"
+      ]
+    },
+    {
+      "id": "childrens-outreach-beneficiary",
+      "title": "Children's & Outreach Beneficiary Data",
+      "summary": "Acme Trust's community outreach includes school and camp screenings, so children's data requires verifiable parental consent under DPDP.",
+      "bullets": [
+        "School and community screening camp participant records",
+        "Names, ages and schools of minors",
+        "Parental/guardian consent and authorisation records",
+        "Free or subsidised surgery beneficiary lists",
+        "Tracking, behavioural monitoring and targeted ads to children are prohibited"
+      ]
+    },
+    {
+      "id": "donor-fundraising-csr",
+      "title": "Donor & Fundraising Data",
+      "summary": "As a foundation, Acme processes donor details for donations, 80G receipts and CSR funding compliance.",
+      "bullets": [
+        "Donor name, contact details, PAN and donation amount",
+        "12A/80G exemption records, receipts and acknowledgments",
+        "Corporate CSR partners, grants and sponsor agreements",
+        "Online/recurring donation and payment metadata",
+        "Donor communication preferences and opt-out history"
+      ]
+    },
+    {
+      "id": "employee-doctor-hr",
+      "title": "Employee, Doctor & Volunteer Data",
+      "summary": "The trust and LLP employ doctors, paramedics, camp staff and volunteers whose HR and professional data is processed.",
+      "bullets": [
+        "Identity, qualification and medical council registration details",
+        "Payroll, bank details, income tax and PF records",
+        "Attendance, leave, duty rosters and camp postings",
+        "Performance, disciplinary and grievance records",
+        "Volunteer and intern profiles for outreach programs"
+      ]
+    },
+    {
+      "id": "website-digital-marketing",
+      "title": "Website, Appointment & Marketing Data",
+      "summary": "acme.example and its booking channels capture visitors' data through forms, cookies, analytics and messaging campaigns.",
+      "bullets": [
+        "Contact, enquiry and callback request forms",
+        "Online appointment booking and chatbot conversations",
+        "Cookies, IP address, device and web analytics data",
+        "Email, SMS and WhatsApp campaign engagement",
+        "Recorded calls to helpline and booking desks"
+      ]
+    },
+    {
+      "id": "insurance-tpa-scheme",
+      "title": "Insurance, TPA & Government Scheme Data",
+      "summary": "Clinics empanelled with insurers and government health schemes process third-party eligibility and claims data.",
+      "bullets": [
+        "Policy and TPA card details, claim and pre-authorisation forms",
+        "Ayushman Bharat and state health scheme beneficiary data",
+        "Cashless approval and reimbursement documentation",
+        "Billing, invoices, receipts and payment records",
+        "Disclosure to insurers, TPAs and scheme authorities"
+      ]
+    },
+    {
+      "id": "compliance-consent-security",
+      "title": "Compliance, Consent & Premises Records",
+      "summary": "DPDP compliance itself generates records, alongside physical security and visitor monitoring across clinics and Trust facilities.",
+      "bullets": [
+        "Consent notices, logs and withdrawal/preference records",
+        "Data principal requests and grievance redressal records",
+        "CCTV footage and visitor entry registers",
+        "Access audit trails for patient and donor records",
+        "Vendor, partner and data-processing contract records"
+      ]
+    }
+  ],
+  "processing_bullets": [
+    "Collection: Personal data, including patient identity, contact, and health records, is gathered from patients, relatives, camp participants, and referring partners at Acme Clinics LLP facilities and Acme Trust outreach camps.",
+    "Use: Data is processed to deliver clinical eye care, diagnose conditions, schedule surgeries, administer treatments, process insurance claims, and coordinate follow-up care, including for outreach beneficiaries identified by Acme Trust.",
+    "Legal Basis: Processing relies on explicit, granular consent under DPDP Act Section 6 for health services, outreach programs, and research participation, with notice provided in regional languages where required.",
+    "Sharing: Data is shared with empaneled doctors, insurance administrators, medical-device vendors, diagnostic laboratories, and government health schemes solely for specified purposes under written data-sharing agreements.",
+    "Storage: Personal data is retained in electronic health record systems and cloud infrastructure with role-based access controls, encryption at rest, and segregated databases for Acme Trust outreach and Acme Clinics LLP clinical records.",
+    "Retention: Records are retained per medical-record retention norms and purpose limitation requirements; data beyond statutory retention periods is anonymized or securely deleted through documented erasure workflows.",
+    "Security: Technical and organizational measures, including encryption, audit logs, multi-factor authentication, endpoint protection, vulnerability assessments, and workforce training, safeguard data as mandated under DPDP Act Section 8.",
+    "Cross-Location Processing: Data collected at multiple clinic locations and community camps is consolidated at centralized data centers; no international transfer occurs unless expressly notified and separately consented to.",
+    "Children's Data: Data of persons below eighteen years is processed only with verifiable parental consent, and no tracking, behavioural monitoring, or targeted advertising is directed at children.",
+    "Data Principal Rights: Requests for access, correction, erasure, and grievance redressal are handled by designated grievance officers within statutory timelines, with consent-withdrawal mechanisms available across all collection channels."
+  ]
+}

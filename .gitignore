@@ -17,3 +17,11 @@ src/document_generator/.env
 
 # Operation logs
 src/document_generator/logs/
+
+# Template media artifacts (config + master docx) - local-only, not uploaded.
+# DB paths point here; reproduce the folder manually on new machines:
+#   src/document_generator/media/DPDP_IA/{config_v2.yaml, master_dpdpa_ia_v2.docx}
+src/document_generator/media/
+
+# IDE workspace files
+.idea/

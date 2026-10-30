@@ -27,6 +27,11 @@ def _strip(value):
 class ClientSerializer(serializers.ModelSerializer):
     """Create serializer — business fields optional where the model allows blank."""
 
+    # D1 fix: optional on create, but must default to "" — the DB column is NOT NULL
+    # (blank=True is validation-only), so an omitted key would otherwise insert NULL
+    # and crash with IntegrityError (HTTP 500).
+    client_short_name = serializers.CharField(required=False, allow_blank=True, default="")
+
     class Meta:
         model = Client
         fields = (
@@ -42,6 +47,12 @@ class ClientSerializer(serializers.ModelSerializer):
             "updated_at",
         )
         read_only_fields = ("client_id", "is_active", "created_at", "updated_at")
+        # D2 fix: accept explicit null for the list fields; the shared validator
+        # (_validate_string_list) then coerces None -> [] per plan §3.4.
+        extra_kwargs = {
+            "client_industries": {"allow_null": True},
+            "list_of_entities": {"allow_null": True},
+        }
 
     def validate_client_industries(self, value):
         return _validate_string_list(value, "client_industries")
@@ -90,6 +101,12 @@ class UpdateClientSerializer(serializers.ModelSerializer):
             "updated_at",
         )
         read_only_fields = ("client_id", "is_active", "created_at", "updated_at")
+        # D2 fix: null values coerce to [] via the shared validator (key presence
+        # is still enforced in validate() below).
+        extra_kwargs = {
+            "client_industries": {"allow_null": True},
+            "list_of_entities": {"allow_null": True},
+        }
 
     def validate_client_industries(self, value):
         return _validate_string_list(value, "client_industries")

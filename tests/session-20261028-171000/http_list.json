@@ -1,0 +1,9 @@
+[
+  {
+    "template_id": 33,
+    "template_name": "E2E http-smoke",
+    "config_path": "documents/config_v2.yaml",
+    "template_path": "documents/master_dpdpa_ia_v2.docx",
+    "created_at": "2026-10-30T05:04:09.436421Z"
+  }
+]

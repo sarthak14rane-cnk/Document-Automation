@@ -1,0 +1,1 @@
+warning: Making stdout inheritable failed

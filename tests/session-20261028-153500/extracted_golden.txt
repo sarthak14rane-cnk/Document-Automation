@@ -1,0 +1,581 @@
+
+
+495300209550Confidential
+
+REF: CNK/PROP/C/50/26-27
+                                                                                                                                           1st October ,2026
+
+The,
+
+Mission for Vision
+4th Floor, Maker Chambers VI,
+220, Jamnalal Bajaj Marg, Nariman Point, 
+Mumbai – 400 021, Maharashtra, India.
+
+Kind Attn: Elizabeth Kurian
+
+Dear Sir,
+
+Sub:Proposal for conducting Digital Personal Data Protection Impact Analysis &amp; Compliance for Mission for Vision.
+
+
+We are pleased to present herewith our proposal for conducting the DPDP Review and its Compliance for Mission for Vision.
+This proposal will remain effective for a period of 15 days from the date of issue. Any intended changes to the proposal should be communicated within the said period. The proposed assignment timelines and/or the fee structure may change accordingly. On confirmation of the engagement, we would mobilise our team for the assignment at mutual convenience.
+We would be glad to provide further information/assistance that you may require in this connection. Should you have any questions relating to this, please do not hesitate to contact, the undersigned Ms. Sonia B Kudchadkar soniakudchadkar@cnkindia.com , +919920252573.
+We would like to place on record our appreciation for the trust and confidence placed in us and look forward to a mutually rewarding long-term association.
+With best regards,
+
+Sonia B Kudchadkar 
+Partner
+ TOC \o "1-3" \h \z \u 1.INTRODUCTION PAGEREF _Toc241762410 \h 4
+Entity Coverage PAGEREF _Toc241762411 \h 4
+What is Personal Data for MISSION FOR VISION PAGEREF _Toc241762412 \h 5
+1. Beneficiary &amp; Patient Data PAGEREF _Toc241762413 \h 5
+2. Community Eye Health &amp; Program Activities PAGEREF _Toc241762414 \h 5
+3. Hospital, Healthcare Partner &amp; Program Ecosystem PAGEREF _Toc241762415 \h 5
+4. Donor, CSR &amp; Funding Partner Management PAGEREF _Toc241762416 \h 5
+5. Employee, Consultant &amp; Volunteer Data PAGEREF _Toc241762417 \h 6
+6. Digital Platforms &amp; Communication Channels PAGEREF _Toc241762418 \h 6
+7. Research, Monitoring &amp; Impact Assessment PAGEREF _Toc241762419 \h 6
+8. Compliance, Finance &amp; Administration PAGEREF _Toc241762420 \h 6
+9. Children’s Data PAGEREF _Toc241762421 \h 7
+Data Processing Characteristics under DPDPA PAGEREF _Toc241762422 \h 7
+DPDPA Applicability and Key Obligations PAGEREF _Toc241762423 \h 8
+DPDPA Impact Assessment will enable the MISSION FOR VISION to: PAGEREF _Toc241762424 \h 10
+2.OBJECTIVE PAGEREF _Toc241762425 \h 12
+3.Scope Of Work PAGEREF _Toc241762426 \h 13
+Phase 1 DPDP Impact Assessment (Current State Review) PAGEREF _Toc241762427 \h 13
+Phase 2a   Governance, Policy &amp; Compliance Framework Design PAGEREF _Toc241762428 \h 16
+Phase 2b   Privacy Controls, Technology &amp; Operational Design PAGEREF _Toc241762429 \h 17
+ADDITIONAL OFFERINGS — SEPARATE ANNEXURES PAGEREF _Toc241762430 \h 18
+Phase 3:  Implementation &amp; Rollout: PAGEREF _Toc241762431 \h 19
+Phase 4:   Sustain / Operate (Ongoing Compliance Support): PAGEREF _Toc241762432 \h 21
+Conclusion for DPDPA Impact Assessment PAGEREF _Toc241762433 \h 21
+BROAD METHODOLOGY &amp; KEY STEPS PAGEREF _Toc241762434 \h 23
+4.Timelines: PAGEREF _Toc241762435 \h 24
+5.PROJECT GOVERNANCE PAGEREF _Toc241762436 \h 25
+6.Expected Outcome PAGEREF _Toc241762437 \h 26
+7.ASSUMPTIONS, LIMITATIONS &amp; SCOPE EXCLUSIONS PAGEREF _Toc241762438 \h 28
+Assumptions PAGEREF _Toc241762439 \h 28
+Limitations PAGEREF _Toc241762440 \h 28
+Scope Exclusions PAGEREF _Toc241762441 \h 29
+8.ENGAGEMENT TEAM &amp; TIMING PAGEREF _Toc241762442 \h 30
+Execution Team PAGEREF _Toc241762443 \h 30
+Resource Mobilization PAGEREF _Toc241762444 \h 30
+9.REMUNERATION PAGEREF _Toc241762445 \h 31
+10.RETENTION OF WORKING PAPERS PAGEREF _Toc241762446 \h 31
+11.CONCLUSION PAGEREF _Toc241762447 \h 32
+Annexure 1-Definitions PAGEREF _Toc241762448 \h 33
+Annexure 2- Key penalties under the DPDP Act (as of the 2025 Rules) PAGEREF _Toc241762449 \h 33
+TERMS &amp; CONDITIONS PAGEREF _Toc241762450 \h 34
+STANDARD TERMS &amp; CONDITIONS PAGEREF _Toc241762451 \h 35
+
+
+Mission for Vision
+PROPOSAL FOR CONDUCTING DPDP IA &amp; COMPLIANCE FOR THE Mission for Vision
+REF: CNK/PROP/C/50/26-27
+INTRODUCTION
+
+We, Messrs. CNK &amp; Associates LLP, Chartered Accountants, (“CNK”) are pleased to present, a joint proposal along with Khaitan Legal Associates (“KLA”) for DPDP Impact Assessment &amp; Compliance review for Mission for Vision.
+The proposal summarizes the benefit of Digital Personal Data Protection Impact Assessment and Compliance for an organization like yours , with our standard Terms of Reference. 
+Entity Coverage
+This engagement will cover the following Entity:
+Mission for Vision
+Tulsi Eye
+Tulsi Trust
+Mission for Vision (MFV) is a leading not-for-profit organization established in 2000 and headquartered in Mumbai, working towards the eradication of avoidable blindness by enabling accessible, affordable and quality eye-health services for communities in need. MFV works through partnerships with eye-care institutions and supports initiatives spanning community eye health, infrastructure development, program impact assessment, research, training and policy engagement. Its programs serve vulnerable communities across rural areas, urban slums and tribal regions, including elderly people, school children, children with disabilities and other underserved groups
+Given the nature and scale of its operations, MFV processes personal data relating to beneficiaries/patients, employees, program personnel, donors, volunteers, partners, healthcare professionals, vendors and other stakeholders. Such data may be processed in connection with eye-health programs, beneficiary outreach, impact assessments, research activities, training, partnerships, fundraising and organizational operations. As a not-for-profit organization undertaking activities involving the processing of personal data, MFV would need to assess its obligations as a Data Fiduciary under the Digital Personal Data Protection Act, 2023 (DPDP Act), including applicable requirements relating to lawful processing, notice, consent where applicable, security safeguards, data principal rights, retention and grievance management.
+What is Personal Data for Mission for Vision
+Based on our understanding of Mission for Vision’s activities and programs, we believe that the organization processes personal data across multiple operational, programme, healthcare, donor and support functions. The nature of personal data may include the following:
+1. Beneficiary &amp; Patient Data
+Beneficiary/patient name, age and gender
+Contact details and address
+Patient registration and identification details
+Eye-health and medical information
+Diagnosis, treatment and surgical details
+Pre- and post-operative records
+Referral and follow-up information
+Photographs and other records collected as part of programme activities
+2. Community Eye Health &amp; Program Activities
+Beneficiary identification and demographic information
+Community survey and screening information
+Eye-screening and vision assessment records
+Programme participation and treatment information
+Location and outreach-related information
+Beneficiary follow-up and impact assessment data
+Data collected through community outreach camps and field activities 
+3. Hospital, Healthcare Partner &amp; Program Ecosystem
+Patient/beneficiary information shared with partner hospitals and healthcare institutions
+Healthcare professional and programme coordinator details
+Treatment and referral information
+Partner institution contacts and engagement details
+Programme implementation and monitoring records
+Data exchanged with implementing partners and service providers
+4. Donor, CSR &amp; Funding Partner Management
+Donor names and contact details
+Corporate/CSR representative information
+Donation and contribution records
+Communication and correspondence records
+Funding-related documentation
+Event and engagement participation details
+Reports and information shared with donors and CSR partners 
+5. Employee, Consultant &amp; Volunteer Data
+Employee personal and contact information
+Employment and professional details
+Payroll and financial information
+Identity and verification documents
+Attendance and leave records
+Performance and training information
+Volunteer and consultant registration details
+Access and identification records
+6. Digital Platforms &amp; Communication Channels
+Website visitor and enquiry information
+Online registration and submission details
+Email and communication records
+IP address and device-related information, where collected
+Website usage and interaction information
+Digital campaign and engagement data
+Social media and online communication records 
+7. Research, Monitoring &amp; Impact Assessment
+Beneficiary-level programme data
+Health and treatment outcomes
+Survey and feedback responses
+Monitoring and evaluation information
+Research-related participant information
+Data used for programme effectiveness and impact reporting
+Photographs, testimonials and other documentation used for programme communication, where applicable
+ 8. Compliance, Finance &amp; Administration
+Vendor and service-provider information
+Contractual and engagement records
+Financial and payment information
+Audit and compliance records
+Statutory and regulatory documentation
+Internal investigation and incident-related information
+Records relating to organisational governance and administration
+9. Children’s Data
+Child's name, age/date of birth and gender
+Parent/guardian name and contact details
+School and educational details
+Eye-screening and health/medical information
+Diagnosis, prescription and treatment/referral details
+Spectacle distribution and follow-up information
+Photographs or other programme-related information, where collected
+Data Processing Characteristics under DPDPA
+Mission for Vision’s data processing ecosystem may involve:
+Collection and processing of personal data through community eye-health programmes, screening camps, healthcare partners and beneficiary interactions.
+Processing of health-related and identification information in connection with eye-care, treatment, rehabilitation and programme monitoring activities.
+Data sharing and exchange with partner hospitals, healthcare institutions, implementation partners, donors, CSR partners, consultants and service providers, as applicable.
+A combination of manual, digital and technology-enabled processing across programme and administrative functions.
+Use of personal data for beneficiary identification, service delivery, treatment/follow-up, programme monitoring, impact assessment, reporting and organisational administration.
+Processing of personal data belonging to multiple stakeholder groups, including beneficiaries/patients, employees, volunteers, donors, partners, healthcare professionals and vendors.
+Potential use of third-party technology platforms, cloud services and outsourced service providers for hosting, communication, data management and other operational requirements.
+Retention of personal data across different systems and records based on programme, operational, legal, contractual and reporting requirements.
+Requirement to establish appropriate controls around access management, data sharing, retention, deletion, consent/notice, data-subject rights, incident management and third-party processing in line with applicable DPDPA requirements.
+Potential processing of personal data across different locations and through third-party service providers, requiring assessment of data transfer, security and processor-management practices. 
+DPDPA Applicability and Key Obligations
+Based on the nature of its operations and processing of personal data relating to beneficiaries, patients, employees, donors, volunteers, healthcare partners and other stakeholders, Mission for Vision (MFV) would need to assess and implement the applicable obligations under the Digital Personal Data Protection Act, 2023 (DPDP Act). The applicability and extent of specific obligations would depend on MFV’s processing activities, role as Data Fiduciary or Data Processor, and other factors prescribed under the applicable legal framework.:
+1. Lawful Processing &amp; Consent Management
+Establish appropriate lawful grounds for processing personal data, including consent where required.
+Provide clear and accessible privacy notices to beneficiaries, patients, employees, donors and other Data Principals, as applicable.
+Obtain consent in a manner that is specific, informed and capable of being withdrawn where consent is the applicable basis.
+Maintain appropriate records and evidence of consent and related processing activities.
+Establish mechanisms to facilitate withdrawal of consent where applicable
+2. Purpose Limitation &amp; Data Minimization
+Collect and process personal data only for specified and legitimate purposes, such as delivery of eye-care services, beneficiary management, programme implementation, monitoring, reporting and organisational administration.
+Limit collection to personal data that is necessary for the intended purpose.
+Review existing forms, databases and data collection channels to identify unnecessary or excessive data collection.
+Ensure that subsequent use or sharing of personal data remains aligned with the applicable purpose and legal requirements
+3. Data Principal Rights Management
+Enable investors and other Data Principals to exercise their rights:
+Right to access information about personal data being processed.
+Right to correction and updating of personal data.
+Right to erasure of personal data, subject to applicable legal and retention requirements.
+Right to grievance redressal.
+Right to nominate an individual to exercise rights in accordance with applicable provisions 
+Appropriate channels, ownership and turnaround mechanisms should be established for receiving, authenticating, tracking and responding to such requests.
+4. Data Security Safeguards
+Implement appropriate technical and organisational measures to protect personal data.
+Apply appropriate access controls and role-based access based on business need.
+Protect beneficiary, patient and other personal data during storage and transmission.
+Implement appropriate authentication, encryption, endpoint and network security controls, as applicable.
+Maintain audit trails, security logs and monitoring mechanisms for relevant systems.
+Periodically review access privileges and security controls, particularly for systems containing sensitive or health-related information. 
+5. Personal Data Breach Management
+Establish a formal personal data breach identification, escalation and response framework.
+Define roles and responsibilities for identifying, assessing, containing and remediating personal data breaches.
+Establish mechanisms for notification to the Data Protection Board and affected Data Principals, where required under applicable law.
+Conduct root-cause analysis and corrective actions following significant incidents.
+Maintain appropriate records of incidents, response actions and remediation. 
+6. Data Retention &amp; Record Management
+Define appropriate retention periods for beneficiary, patient, employee, donor, financial, programme and other personal data based on applicable legal, contractual, operational and organisational requirements.
+Establish a formal data retention and disposal policy.
+Periodically review stored personal data to identify information that has exceeded its applicable retention period.
+Implement secure deletion, disposal or anonymisation, as appropriate, once retention requirements have been fulfilled.
+Ensure that archived data remains subject to appropriate security and access controls 
+7. Vendor &amp; Third-Party Risk Management
+Identify third parties and service providers that process personal data on behalf of MFV, including healthcare partners, technology providers, cloud service providers, consultants, programme partners and other outsourced service providers, as applicable
+Define appropriate contractual requirements relating to data protection, confidentiality, security and breach management
+Conduct appropriate privacy and information-security due diligence of relevant third parties
+Establish mechanisms to monitor third-party compliance with applicable data protection requirements
+Ensure appropriate controls over data sharing and onward processing by third parties
+8. Additional Obligations (if classified as SDF)
+Depending on the applicability of specific provisions and any future classification or notification applicable to MFV, additional governance measures may be required. These may include:
+Strengthening the organisation's privacy governance framework and accountability structure.
+Periodic assessment of personal data processing activities and associated privacy risks.
+Implementation of privacy-by-design principles for new programmes, systems and technology initiatives.
+Periodic review of privacy policies, notices, consent mechanisms and data processing practices.
+Maintaining appropriate records, documentation and evidence of compliance.
+Conducting periodic privacy and data protection reviews/audits, where applicable.
+Enhancing employee and stakeholder privacy awareness and training
+
+DPDPA Impact Assessment will enable the MISSION FOR VISION to:
+Identify and address DPDPA compliance gaps
+Strengthen personal data privacy and security
+Enhance stakeholder trust and accountability
+Improve regulatory readiness
+Strengthen beneficiary and patient data protection
+Enhance third-party and data-sharing governance
+Embed privacy-by-design practices across operations
+
+
+
+OBJECTIVE 
+
+Mission for Vision proposes to undertake a Digital Personal Data Protection Impact Assessment and compliance assessment, covering its key business processes, IT infrastructure, applications, programmes and third-party ecosystem involved in the collection, processing, storage, sharing, archival and deletion of personal data.
+The objective of this exercise is to assess MFV’s existing data protection practices, identify compliance gaps and associated privacy risks, and recommend appropriate remediation measures to align its data governance, contractual arrangements, IT controls and personal data lifecycle management with the applicable requirements of the Digital Personal Data Protection Act, 2023 (DPDP Act).
+To support Mission for Vision in its privacy and compliance journey, CNK along with KLA will assess the existing data governance framework with focus on:
+Distributed data collection across beneficiaries, patients, employees, donors, partners and programme activities.
+Consent and privacy notice practices across offline and digital data collection channels.
+Multi-stakeholder data sharing, including healthcare institutions, programme partners, donors and external service providers.
+Personal and health-related data retention and archival practices.
+Third-party and Data Processor management and contractual data protection requirements.
+Organisation-wide DPDPA compliance across relevant functions and programmes.
+Privacy-by-design considerations for business processes, programmes and technology initiatives.
+Risk assessment to evaluate the likelihood and potential impact of identified personal data privacy and breach risks.
+Development of appropriate mitigation measures and remediation actions to address identified personal data risks and compliance gaps.
+
+Scope Of Work
+
+This initiative will follow a phased implementation approach for Mission for Vision, covering Data Discovery and Mapping, Risk Assessment, Policy &amp; Process Development, Technology Enablement, Capacity Building and Compliance Monitoring.
+Based on our discussions and experience in the area of data protection and privacy, the scope will focus on assessing MFV’s personal data processing activities across its beneficiary and patient programs, employees, donors, partners, healthcare institutions, vendors and supporting business functions.
+The scope of work is indicative and may be further refined based on the findings emerging during the assessment. Any additional area identified during the engagement that is relevant to MFV’s DPDPA compliance and data protection objectives may also be considered as part of the engagement.
+The entire engagement will be divided into four phases, covering the assessment of the current state, identification and prioritization of gaps and risks, development of the required privacy framework and controls, and support towards implementation and ongoing monitoring.
+
+Phase 1 DPDP Impact Assessment (Current State Review)
+The objective of Phase 1 is to establish a clear understanding of Mission for Vision’s personal data landscape, processing activities, technology environment and existing privacy controls, and to identify key gaps and risks against the applicable requirements of the DPDP Act.
+The assessment will include:
+Review and inventory of existing personal data collection points, sources and methods, including beneficiary/patient interactions, outreach programs, events, websites, forms, email and other relevant channels.
+Assessment of personal data shared with partner hospitals, healthcare institutions, program partners, donors, vendors, consultants and other external parties, as applicable.
+Review of personal data processed in connection with healthcare, program delivery, monitoring, reporting, financial, employment and other applicable legal or contractual requirements.
+Review of personal data processed through websites, digital platforms, online forms, communication channels and other technology systems.
+Review of methods, policies and controls relating to storage, accessibility, internal sharing, processing and use of personal data.
+Review of existing personal data retention, archival and deletion practices.
+Review of communications and information shared with external stakeholders and third parties by relevant departments and personnel.
+Assessment of the extent, nature and purpose of personal data disclosed or transferred outside MFV.
+Assess the applicability of the DPDP Act and identify key compliance risks across relevant business, program and IT operations.
+Conduct personal data discovery and data-flow mapping across relevant functions and technology platforms to understand how personal data is collected, processed, stored, transferred and deleted.
+Identify high-risk processing activities, including processing of health-related, identification and other potentially sensitive personal information.
+Map Data Principal touchpoints across beneficiary/patient interactions, outreach programs, websites, forms, communication channels, employee interactions and other relevant points of data collection.
+Conduct discussions/interviews with relevant personnel to understand what personal data is collected, the purpose of collection, where it is stored, who has access to it, with whom it is shared and how long it is retained.
+Perform a detailed gap assessment against applicable DPDP Act and Rules requirements and identify areas requiring remediation or improvement.
+Assess the applicability of DPDP requirements across MFV’s various functions, programs and operational units, including relevant legal and regulatory considerations.
+Provide inputs on Data Fiduciary/Data Processor roles, territorial applicability, processing purposes and sector-specific considerations, wherever applicable.
+Review the system and application landscape, including interfaces with third-party platforms, healthcare partners and other external systems.
+Assess the current IT and data environment, including infrastructure, applications, interfaces, access controls and overall data landscape.
+Review relevant contracts and agreements with employees, vendors, healthcare institutions, program partners, consultants, technology providers and other service providers.
+Review existing cybersecurity and data protection controls against applicable regulatory requirements and recognized industry practices.
+Review business continuity and disaster recovery arrangements relating to the availability, backup and archival of personal data.
+Evaluate existing IT governance, privacy governance, controls, ownership and reporting mechanisms.
+
+Key Deliverables
+Personal Data Inventory across relevant MFV functions and programmes.
+Personal Data Flow Diagrams (DFDs) for identified business/programme units.
+DPDPA Gap Assessment Report covering MFV’s applicable personal data processing activities, systems, controls and third-party ecosystem.
+Key Risk &amp; Compliance Findings with recommended remediation actions.
+
+
+Phase 2a   Governance, Policy &amp; Compliance Framework Design
+
+The objective of Phase 2A is to establish a practical and sustainable data protection governance framework for Mission for Vision, aligned with applicable DPDP requirements and MFV’s operational, healthcare, programme and stakeholder ecosystem.
+
+The scope will include:
+
+Define the DPDP governance framework and target operating model, including roles, responsibilities, accountability and escalation mechanisms.
+Define appropriate privacy/data protection ownership, including roles, responsibilities, reporting structure and operating procedures for the designated privacy function.
+Identify and develop DPDP-aligned policies, privacy notices, standards and SOPs applicable to MFV.
+Develop guidelines and processes covering personal data collection, consent/notice, retention, storage, access, sharing, processing and secure deletion.
+Establish a vendor and third-party privacy assessment framework, including appropriate Data Processing Agreement (DPA) requirements.
+Recommend DPDP-aligned contractual safeguards and model data protection clauses for relevant employees, vendors, partners, healthcare institutions and service providers.
+Define record-keeping and documentation requirements to support ongoing DPDP compliance and accountability.
+Prepare function/programme-level privacy guidelines, including practical Do’s and Don’ts for personnel handling personal data.
+Provide guidance on:
+Personal data obtained from third-party sources and program partners.
+Personal data obtained from public sources or the open internet, where applicable.
+Sharing of employee and stakeholder personal data for legitimate business or program activities.
+
+Phase 2b   Privacy Controls, Technology &amp; Operational Design
+The objective of Phase 2B is to translate the governance and policy framework into practical privacy, security and operational controls that can be implemented across Mission for Vision’s programmes, functions, technology environment and third-party ecosystem.
+
+The scope will include:
+Design a consent and privacy notice framework, including consent lifecycle, withdrawal mechanisms, record retention and deletion processes, wherever consent is the applicable basis for processing.
+Evaluate appropriate consent models for different MFV functions and stakeholder categories, including beneficiaries/patients, employees, donors, volunteers and other relevant Data Principals.
+Assess requirements for consent management tools or technology enablement, where applicable.
+Design privacy and security controls aligned with applicable DPDP requirements and MFV’s operating environment.
+Assess technology dependencies, system vulnerabilities and existing control gaps, and recommend required privacy and security enhancements.
+Develop a structured DPDP implementation plan and compliance roadmap, including prioritised remediation activities.
+Conduct a high-level review of technology architecture, applications, data repositories and system interfaces from a data protection and privacy perspective.
+Design a personal data breach management framework, covering identification, escalation, incident response, notification and reporting requirements.
+Develop a privacy risk mitigation and control enhancement roadmap based on the risks identified during the assessment.
+Define appropriate controls for managing consent, notices and personal data processing across different stakeholder categories.
+Provide guidance on privacy requirements for the exchange of reports, programme information, beneficiary information and other personal data through email, WhatsApp and other digital communication platforms.
+Support the integration of privacy, cybersecurity and operational controls into MFV’s overall DPDP implementation plan.
+Recommend appropriate mechanisms for privacy monitoring, control testing and periodic compliance review.
+
+Key Deliverables:
+Privacy Action Report 
+Privacy Policy
+Privacy Procedures
+Clauses to be added to Contracts
+Consent Management Application if any 
+
+ADDITIONAL OFFERINGS — SEPARATE ANNEXURES
+(Beyond the Core Assessment)
+The following capability is offered as an optional, separately priced workstream that may be initiated upon successful completion of Phase I and Phase II, subject to MISSION FOR VISION's business priorities and implementation readiness.
+Data Protection Officer as a Service (Phase III)
+Offered as Phase III of the engagement, once the gap assessment (Phase I) and remediation/implementation (Phase II) are complete. The engagement is structured as a managed services model, reflecting the ongoing and operational nature of privacy governance and regulatory oversight.
+Under this model, we provide continuous DPO support through a combination of offsite advisory supplemented by on-premises engagement where deeper operational involvement is required, structured as an ongoing managed-services model.
+
+Consent Management Enablement (Platform-Agnostic)
+MFV may be supported in implementing a technology-agnostic consent management solution, based on the consent, notice and rights-management workflows identified during the assessment.
+Platform selection, configuration and implementation would be separately scoped and commercially evaluated based on MFV’s confirmed requirements.
+
+
+Lightweight RoPA Implementation
+A lightweight Records of Processing Activities (RoPA) framework can be implemented as a separate workstream to provide MFV with a practical and maintainable register of:
+Personal data processing activities
+Data categories and Data Principals
+Processing purposes
+Systems and storage locations
+Data sharing and third parties
+Retention requirements
+Applicable privacy and security controls.
+
+Phase 3:  Implementation &amp; Rollout:
+The objective of Phase 3 is to support Mission for Vision in implementing and operationalising the privacy governance framework, policies and controls identified during the assessment and design phases. The implementation will focus on embedding DPDP-aligned practices across relevant functions, programmes, technology systems and third-party relationships.
+The scope will include:
+Implementation of the approved DPDP privacy framework across relevant functions, including HR, Operations, Finance, IT, Administration, Programme Teams and other applicable functions.
+Implementation of the personal data retention, archival and secure deletion framework.
+Establishment of Data Principal request workflows, including access, correction, erasure and grievance-related processes, as applicable.
+Evaluation and implementation support for appropriate Data Principal request management tools, where required.
+Enablement of personal data breach reporting and incident management processes.
+Conduct DPDP awareness and privacy training for management, business teams, programme teams, frontline personnel and other relevant stakeholders.
+Build awareness around personal data ownership, retention, secure handling, sharing and deletion responsibilities.
+Develop and implement consent and privacy notice procedures across applicable functions and data collection channels.
+Identify opportunities for data minimisation and support implementation of appropriate data collection and processing practices.
+Provide support for the appointment or engagement of a Data Protection Officer/privacy function, where required based on applicability and organisational needs.
+Establish and operationalise a Data Principal grievance redressal and escalation mechanism.
+Implement identified IT, cybersecurity and privacy control enhancements.
+Update vendor governance frameworks, contractual safeguards and Data Processing Agreements (DPAs), as applicable.
+Strengthen business continuity, backup, archival and disaster recovery practices relating to personal data.
+Develop or update the Privacy Policy, privacy notices and related communication materials, where required.
+Support implementation of privacy-by-design practices for relevant new systems, programmes and processing activities.
+Key Deliverables:
+DPDP Framework Implementation &amp; Rollout
+Consent and Consent Withdrawal Mechanisms, where applicable
+Data Principal Rights &amp; Grievance Redressal Framework
+Data Retention, Archival &amp; Secure Deletion Implementation
+Personal Data Breach Reporting &amp; Incident Response Process
+Privacy Policy, Notices &amp; Communication Framework
+Security, Encryption, Access Control, Anonymisation and Monitoring Enhancements
+Employee Privacy Awareness, Training &amp; Change Management Programme
+Vendor Governance &amp; DPA Implementation
+Backup, Business Continuity &amp; Data Archival Controls
+Implementation Roadmap with Closure Tracking for Identified Gaps
+Vulnerability Assessment and Penetration Testing (VAPT) of identified systems, where applicable and separately scoped.
+
+Phase 4:   Sustain / Operate (Ongoing Compliance Support):
+This Phase is Optional (can be opted for an additional cost) and will not form a part of the Commercial Construct of this Proposal.
+This Phase is Optional and may be availed at an additional cost. It will not form part of the Commercial Construct of this Proposal.
+Following implementation, Mission for Vision may opt for ongoing support to sustain, monitor and continuously improve its DPDP compliance framework. The scope may include:
+Conduct periodic DPDP compliance monitoring and control testing across relevant functions, programmes and systems.
+Perform periodic vendor and third-party privacy compliance reviews, including assessment of applicable contractual and data protection requirements.
+Conduct sample-based testing of key DPDP, privacy and IT controls against the approved compliance framework and evolving regulatory expectations, with concise findings and recommendations.
+Undertake DPDP-focused contractual reviews of material vendors, service providers, programme partners and relevant new employee arrangements.
+Provide audit and regulatory support, including assistance with preparation of evidence, documentation and responses to audit or regulatory queries.
+Support continuous improvement of privacy governance and data protection controls based on changes in the DPDP Act, Rules, regulatory expectations and MFV’s business/programme environment.
+Conduct periodic refresher and deep-dive privacy awareness sessions for identified stakeholders, with content updated for relevant legal, regulatory and operational developments.
+Support continuous compliance improvement as DPDP requirements and organisational data processing practices evolve.
+Provide periodic privacy metrics and MIS reporting to management/leadership, including key compliance indicators, risks, open actions and remediation status.
+
+Conclusion for DPDPA Impact Assessment
+Mission for Vision operates across the eye-care, community outreach and social-impact ecosystem, involving the collection and processing of personal data relating to beneficiaries, patients, employees, donors, volunteers, healthcare partners, programme partners and other stakeholders.
+Given the nature of these activities, effective protection of personal data is important from privacy, regulatory, operational, stakeholder trust and reputational perspectives.
+As an organisation processing personal data, MFV should establish an appropriate privacy and data protection governance framework aligned with the Digital Personal Data Protection Act, 2023 and applicable Rules, proportionate to its processing activities and organisational requirements.
+The proposed DPDPA Impact Assessment will help Mission for Vision to understand its personal data landscape, identify compliance gaps and privacy risks, strengthen governance and security controls, and establish a sustainable approach to responsible personal data management across its programmes, operations, technology environment and third-party ecosystem.
+
+BROAD METHODOLOGY &amp; KEY STEPS
+
+
+
+Timelines: 
+
+The Phase 1 to 3 will be executed over a period of 16-18 weeks. Covering planning, assessment, remediation support, and ongoing compliance assurance activities.
+Phase 4 comprises of On-Going Compliance Support which is a quarterly activity.  The time to be spent for each quarter will be decided on a mutually agreed scope at that juncture. 
+For MISSION FOR VISION, these obligations apply across key operational touchpoints, communities and government collaborations, and internal HR, payroll, and vendor management systems. 
+
+PROJECT GOVERNANCE
+ORGANIZATION CHART
+
+REPORTING
+
+Traffic Lighting
+RED
+AMBER
+GREEN
+Delayed
+Needs Attention
+As per Plan
+
+Expected Outcome
+DPDP Compliance ReadinessClear identification of privacy and compliance gaps across Mission for Vision’s programs, operations and support functions, supported by a prioritized remediation roadmap aligned with applicable DPDP requirements. 
+End-to-End Data Mapping
+Comprehensive mapping of personal data relating to beneficiaries/patients, employees, donors, volunteers and partners across collection points, systems, storage locations and third-party interactions. 
+Strengthened Consent ManagementStandardized and transparent consent and privacy notice practices across applicable data collection channels, including appropriate mechanisms for consent withdrawal where consent is relied upon. 
+Enhanced Data Principal Rights HandlingDefined processes to manage applicable access, correction, erasure and grievance redressal requests from beneficiaries and other Data Principals. 
+Improved Third-Party GovernanceStrengthened due diligence, contractual safeguards and oversight of healthcare institutions, program partners, vendors, technology providers and other third parties processing personal data. 
+Data Protection Governance FrameworkEstablishment of appropriate policies, procedures, roles, responsibilities and accountability mechanisms to support ongoing privacy governance and compliance. 
+Risk Identification &amp; MitigationIdentification of privacy risks specific to MFV’s activities, including community/field-level data collection, healthcare-related information and beneficiary data sharing, with actionable mitigation measures. 
+Security &amp; Control EnhancementsRecommendations to strengthen technical and organizational controls covering access management, data retention, secure storage, data sharing, encryption and incident management, as applicable. 
+Audit Readiness &amp; DocumentationDevelopment of appropriate records, evidence, audit trails and compliance documentation to demonstrate implementation of privacy controls and support future assessments or regulatory requirements. 
+Awareness &amp; Training EnablementEnhanced awareness among MFV employees, program teams, frontline personnel and relevant partners regarding responsible handling of personal data and applicable privacy obligations. 
+Phased Implementation RoadmapA practical and prioritized roadmap with defined actions, timelines, ownership and implementation priorities to support MFV in achieving and sustaining DPDP compliance.
+
+DPDP compliance enhances Enterprise Trust, Strengthens Institutional Governance, enables Responsible Partnerships with Government and Corporates, and ensures Ethical handling of vulnerable beneficiary data.
+
+ASSUMPTIONS, LIMITATIONS &amp; SCOPE EXCLUSIONS
+ Assumptions
+The assessment and documentation will be undertaken from an Indian data protection and privacy law perspective, with the scope primarily focused on the applicable requirements of the Digital Personal Data Protection Act, 2023 and associated Rules.
+Mission for Vision will provide timely access to relevant systems, applications, data-flow information, process documents, contracts, policies, procedures and other documentation required for the assessment.
+Mission for Vision will nominate a single point of contact (SPOC) to coordinate with internal teams, program teams, healthcare/implementation partners, vendors and other relevant third parties to facilitate timely availability of information.
+Any necessary system access, infrastructure, tools or software required for carrying out the assessment will be provided or facilitated by Mission for Vision.
+Information and representations provided by MFV personnel and relevant stakeholders will be considered accurate and complete for the purpose of the assessment.
+MFV will facilitate the participation of relevant business, program, IT, HR, administration, finance and other stakeholders required for interviews and validation.
+The assessment will be based on the information and documentation made available during the engagement period.
+
+Limitations
+The core engagement will comprise three phases, covering assessment, framework design and implementation/rollout. Any ongoing Phase 4 – Sustain/Operate activities will be separately discussed and agreed based on MFV’s requirements.
+The assessment will be performed on a reasonable-efforts basis and will not constitute legal certification or a guarantee of regulatory compliance.
+The scope will focus on personal data and processing activities relevant to MFV's identified operations, programs, systems and stakeholder ecosystem.
+Any requirements relating to jurisdictions outside India or foreign data protection laws will be outside the core scope unless specifically agreed otherwise.
+Detailed legal opinions on specific contractual, regulatory or sector-specific matters will be considered separately, where required
+
+Scope Exclusions
+Implementation or modification of IT systems, applications or infrastructure will not form part of the core assessment. Recommendations for required modifications or enhancements may be provided; actual implementation will remain the responsibility of Mission for Vision or its designated technology/service providers.
+Development or deployment of technology solutions, including consent management platforms, DSAR tools or privacy management systems, will be separately scoped where required.
+Existing policies and procedures will not be comprehensively rewritten as part of the assessment. Where required, DPDP-specific addendums, amendments or recommended updates will be provided.
+Detailed penetration testing, vulnerability assessment, source-code review or technical security testing will not form part of the core scope unless separately agreed.
+Activities relating to ongoing Phase 4 compliance monitoring, periodic audits, managed DPO services or continuous operational support will be treated as optional additional services.
+
+ENGAGEMENT TEAM &amp; TIMING
+
+Execution Team
+Our execution team would comprise of a mix of Chartered Accountants, Engineers, graduates, MBA / IT specialists from our Information Technology team along with lawyers who have a deep domain knowledge of the DPDP Act and Privacy Laws
+The method of execution of this engagement will be Hybrid, all that can be done virtually will be done virtually, what requires IN PERSON presence will be executed in person.
+
+ Resource Mobilization
+
+We will mobilize our engagement team to commence work on a mutually convenient date. Our ability to meet with this timetable will depend upon the availability of the management and support personnel and their ability to provide the required information and support expeditiously. 
+
+REMUNERATION
+
+We estimate our professional fees based on the level of skills required, the location and the timing of the assignment, a fair estimate of professional time required, and the risk and responsibilities involved.  Based on these parameters, the fees proposed for proposed engagement are given below. 
+ At CNK and Associates LLP we are committed to providing value and delivering results by understanding and meeting the specific requirements of our clients and working closely as a team with your personnel. 
+The assignment will cover an estimated duration of 16 – 18 weeks. The estimated fees for the assignment will be Rs. 20,25,000.
+We would require a 10% advance for Team mobilization   20% on Completion of Phase 1, 30% on Completion of Phase 2 and 40% on Completion of Phase 3.   All invoices are payable at the presentation.  
+Details
+Amount
+Advance for Team mobilization   
+Rs.   202500
+Completion of Phase 1
+Rs.   405000
+Completion of Phase 2
+Rs.   607500
+Completion of Phase 3
+Rs.   810000
+
+The fees would be exclusive of GST and exclusive of out-of-pocket expenses incurred directly for the conduct of the assignment such as travel costs including lodging &amp; boarding, communication costs, local conveyance, report reproduction costs, etc. 
+ The agreed fee will cover the agreed scope of assignment and accordingly, should the work undergo any significant modification or if any additional areas, or should the engagement get unreasonably delayed due to unavailability of information and personnel from MISSION FOR VISION’s end we will discuss the matter with you and then fix up the additional fees as through the mode of a Change Request.
+RETENTION OF WORKING PAPERS
+We understand that our working papers and reports should be stored securely. We will be retaining our detailed working papers and records of the assignment for a period of 1 year from the submission of the final report. Our report copies, however, will be retained for a period of 2 years from the submission of the final report. 
+CONCLUSION
+Given the nature of Mission for Vision’s activities and the personal data processed across its beneficiary and patient programmes, community outreach initiatives, employees, donors, volunteers, healthcare partners, vendors and other stakeholders, it is important to assess the organisation’s regulatory exposure, existing data protection practices, and the IT and cybersecurity controls supporting the collection, processing, storage, sharing and retention of personal data under the DPDP Act and applicable Rules.
+The proposed assessment is intended to provide MFV’s management with a clear view of its current data protection readiness, key privacy and compliance risks, identified gaps, and practical measures required to strengthen and sustain compliance.
+We wish to state that we undertake all our professional assignments with utmost sincerity and commitment. Our teams are trained to deliver high standards of professional services through ongoing professional development, formal training, internal knowledge-sharing sessions and strong on-the-job guidance.
+Our engagement methodology and processes are periodically reviewed to incorporate emerging privacy, technology and regulatory practices, while ensuring that the recommended framework is practical and aligned with Mission for Vision’s organisational objectives, operating environment and social-impact ecosystem.
+We are confident that the proposed engagement will help Mission for Vision strengthen data protection governance, enhance stakeholder trust, protect beneficiary and patient information, and establish sustainable privacy practices. We look forward to the opportunity to support Mission for Vision and add value through this assignment.
+
+
+
+
+Annexure 1-Definitions 
+
+Data Fiduciary -An entity that decides why and how personal data is processed, either alone or with others.
+Data Principal -The individual to whom the personal data relates. In the case of a child, this includes a parent or lawful guardian. For a person with a disability who cannot act independently, this includes the lawful guardian acting on their behalf.
+Data Processor- Any entity that processes personal data on behalf of a Data Fiduciary.
+Consent Manager - An entity that provides a single, transparent and interoperable platform through which a Data Principal may give, manage, review or withdraw consent.
+
+Annexure 2- Key penalties under the DPDP Act (as of the 2025 Rules)
+
+Up to ₹250 Crore: Failure to implement reasonable security safeguards to prevent data breaches.
+Up to ₹200 Crore: Failure to notify the Board or affected individuals regarding a personal data breach.
+Up to ₹200 Crore: Non-compliance with obligations regarding children's data, including tracking or behavioral monitoring.
+Up to ₹150 Crore: Non-compliance by a Significant Data Fiduciary (e.g., failure to appoint a Data Protection Officer or conduct audits).
+Up to ₹50 Crore: Any other violation of the Act or Rules, such as not obtaining valid consent or failure to handle data principal rights.
+Up to ₹10,000: Failure of a Data Principal to comply with their duties (e.g., impersonation or filing false complaints)
+
+TERMS &amp; CONDITIONS
+
+The Standard “Other Terms and Conditions” applicable to this assignment are separately enclosed herewith.
+
+
+
+STANDARD TERMS &amp; CONDITIONS
+
+Standard “Other Terms and Conditions” of
+CNK&amp; Associates LLP Applicable to the Engagement
+Confidentiality: Except with the prior consent of Mission for Vision or as required by Indian Law, CNK &amp; Associates LLP (CNK) shall hold all non-public and private information received by CNK from Mission for Vision under strict confidence in accordance with our professional obligations and not release or disclose it to any person outside CNK organization. CNK may however need to share certain non-public and private information received from MISSION FOR VISION under this engagement to the peer reviewers under the Peer Review requirement of the ICAI.
+
+Indemnity: CNK and KLA shall not be liable under this foregoing indemnity provision for any consequential, special, direct, indirect, punitive or incidental loss, damage or liability (including loss of profits, data, business, opportunity cost, goodwill, or indemnification) arising out of or in connection with the performance of this Assignment. 
+. 
+Entire Agreement and Non-Waiver: This engagement letter evidences the entire understanding and agreement between Mission for Vision and CNK and supersedes all prior correspondence, agreement, understanding or arrangements whether written or oral, express or implied. This engagement letter may be amended by mutual consent, and all such amendments shall be in writing, duly signed by both parties. 
+
+The waiver or relaxation whether partly or wholly of any of the terms and conditions of this engagement letter shall be valid only if in writing and duly signed by the authorized representatives of both CNK and Mission for Vision and shall apply only to a particular occasion and shall not be continuing and further shall not constitute a waiver or relaxation of any other term or condition.
+
+No failure, delay or forbearance by either Party in exercising any power or right under the agreement shall operate as a waiver of that power or right.
+
+Governing Law &amp; Jurisdiction: This engagement shall be governed by and construed in accordance with the laws of India (“Indian Law”).
+
+Dispute Resolution: Any dispute, controversy or claim arising out of or relating to this Agreement, or breach or termination thereof, shall be amicably resolved through discussions between Mission for Vision and CNK.  In the event of failure of these discussions and judicial resolution becoming necessary, the matter shall be settled by Arbitration as per the provisions of the Indian Arbitration and Conciliation Act, 1996, as may be amended from time to time or its re-enactment (the “Arbitration” Act). The dispute shall be resolved preferably by a single arbitrator selected by mutual agreement of the Parties. The arbitration proceedings shall be held at Mumbai or any other place mutually agreed to by the parties. The language of the arbitration shall be English.
+
+Pending any reference to arbitration, both parties shall continue to perform their respective obligations under this engagement, and the parties shall not withhold, for any reason whatsoever including pendency of arbitration proceedings, payment of any amount which has become due under this engagement.
+Termination: CNK’s engagement hereunder may be terminated either by Mission for Vision or by CNK at any time by giving written notice to that effect to the other Party. It is specifically clarified that the obligation for payment of any fee in respect of work already performed and expenses incurred prior to such termination and the provisions relating to indemnity and confidentiality will survive any such termination. 
+
+Force Majeure: If the performance as specified in this offer letter is prevented, restricted, delayed or interfered by reason of:
+Fire, explosion, cyclone, floods
+War, revolution, acts of public enemies, blockage or embargo
+Any law, order proclamation, ordinance, demand or requirements of any Government or authority or representative of any such Government including restrictive trade practices or regulations.
+Strikes, shutdowns or labor disputes which are not instigated for the purpose of obligations herein
+Any other circumstances beyond the control of the Party affected. 
+Then, notwithstanding anything contained herein, the Party affected shall be excused from its performance to the extent such performance relates to the above and provided the Party so affected uses its best efforts to remove such cause of non-performance and when removed the Party shall continue performance with utmost dispatch. 
+
+Non-solicitation of Employees Covenant: Mission for Vision shall not, during the continuity of this engagement and for a period of 12 months from the date of termination/completion thereof, solicit, endeavor to entice away, employ or offer to employ any person who is employed/ retained by CNK and with whom Mission for Vision came into contact in the course of the engagement. 
+
+The placing of an advertisement of a post available to a member of the public generally and the recruitment of a person through an employment agency or through web-based job advertisements shall not constitute a breach; provided that no member of Mission for Vision encourages or advises such agency to approach any such person.
+
+Acceptance of deliverables under the engagement: The agreed deliverables shall be deemed to be accepted unless objections, if any, are raised in writing or on e-mail within a reasonable time period not exceeding 60 days. Deliverables may be accepted sooner if Mission for Vision states so in writing, or authorizes work depending upon the deliverables, without first raising an objection. 
+
+Limitation of Liability: We stress that our professional responsibilities are solely to the management of Mission for Vision and do not extend to any other stakeholders whatsoever except as specifically stated in the engagement letter. Our findings communicated orally, or in terms of reports, notes or presentations are intended solely for the management or the specified recipient of our services as specified in our engagement letter.
+
+Our engagement may involve rendering services in the nature of professional advice/ opinions or making recommendations. CNK shall provide such services to Mission for Vision without any obligation and without any liability whatsoever on CNK; and Mission for Vision may, at its discretion, accept, modify or reject such advice without assigning any reason whatsoever. Any advice or comments offered about the possible outcome / results are expressions of opinion only and do not guarantee success.
+
+Headings: Headings are included in this agreement for convenience and shall not affect the construction or interpretation of this agreement.

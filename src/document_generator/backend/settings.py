@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'clients',
+    'frontend',
     'template_master',
     'rest_framework',
 ]
@@ -107,6 +108,19 @@ DATABASES = {
 }
 
 
+# DRF configuration
+# https://www.django-rest-framework.org/api-guide/settings/
+REST_FRAMEWORK = {
+    # No authentication this iteration (user decision). Empty list = every
+    # DRF request is anonymous; the DRF default SessionAuthentication would
+    # enforce CSRF on POST/PUT/DELETE whenever an /admin/ session cookie
+    # exists in the browser, breaking unauthenticated frontend JS calls.
+    # Revisit together with frontend fetch handling when the deferred
+    # authentication pass lands (plan-clients-frontend-ui.md §3.7).
+    'DEFAULT_AUTHENTICATION_CLASSES': [],
+}
+
+
 # Password validation
 # https://docs.djangoproject.com/en/6.1/ref/settings/#auth-password-validators
 
@@ -152,3 +166,21 @@ MAILERS = {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
     },
 }
+
+
+# template_master / engine configuration (plan-template-master-backend.md)
+# DOCUMENTS_ROOT is the repo root: every config_path/template_path stored in
+# the TemplateMaster registry is repo-root-relative and resolved under this
+# directory (engine.manifest.resolve_under_documents_root rejects escapes).
+# BASE_DIR (defined above) = .../src/document_generator, so its parent's
+# parent is the repository root.
+DOCUMENTS_ROOT = os.getenv('DOCUMENTS_ROOT', str(BASE_DIR.parent.parent))
+
+# opencode CLI bridge (engine/ai_bridge.py — the only module that shells out).
+OPENCODE_BIN = os.getenv('OPENCODE_BIN', 'opencode')
+# Default model (user decision 2026-10-26): free-tier mimo-v2.6-flash-free on
+# the `opencode` provider. The opencode-go default fails with provider.auth
+# 403 without an active Go subscription. Per-request `model_id` from the AI
+# endpoint JSON overrides this default.
+OPENCODE_MODEL = os.getenv('OPENCODE_MODEL', 'opencode/mimo-v2.6-flash-free')
+OPENCODE_TIMEOUT = int(os.getenv('OPENCODE_TIMEOUT', '180'))  # seconds per run
